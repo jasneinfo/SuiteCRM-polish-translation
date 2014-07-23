@@ -1,4 +1,5 @@
 Preparation of language pack:
-git clone https://github.com/wodor/SugarCRM-polish-translation.git SugarCRM-polish-translation
-cd SugarCRM-polish-translation/ &&  zip -r ../Sugar_pl_PL.zip * && cd ..
-
+'''
+$ git clone https://github.com/neutrinus/SuiteCRM-polish-translation.git
+$ cd SuiteCRM-polish-translation/ &&  zip -r ../Suite_pl_PL.zip * && cd ..
+'''
