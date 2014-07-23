@@ -1,119 +1,156 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
-
-/*********************************************************************************
- * pl_pl.lang.php,v for SugarCRM 4.5.1-->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
-
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
 $mod_strings = array (
-	'ERR_DELETE_RECORD' => 'Numer rekordu musi zostać określony, aby usunąć spotkanie.',
+	'ERR_DELETE_RECORD' => 'Aby usunąć spotkanie musisz określić numer rekordu.',
 
 	'LBL_ACCEPT_THIS'=>'Akceptujesz?',
 	'LBL_ADD_BUTTON'=> 'Dodaj',
-	'LBL_ADD_INVITEE' => 'Dodaj zaproszenia',
-//	'LBL_BLANK'	=> '&nbsp;',
+	'LBL_ADD_INVITEE' => 'Znajdz i dodaj uczestnika',
 	'LBL_COLON' => ':',
 	'LBL_CONTACT_NAME' => 'Kontakt:',
 	'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakty',
-	'LBL_CREATED_BY'=>'Utworzone przez',
+	'LBL_CREATED_BY'=>'Utworzony przez',
 	'LBL_DATE_END'=>'Data zakończenia',
 	'LBL_DATE_TIME' => 'Data i czas rozpoczęcia:',
 	'LBL_DATE' => 'Data rozpoczęcia:',
-	'LBL_DEFAULT_STATUS' => 'Planowane',
 	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Spotkania',
-	'LBL_DEL'=> 'Del',
-	'LBL_DESCRIPTION_INFORMATION' => 'Informacje opisowe',
+	'LBL_DEL'=> 'Usuń',
+	'LBL_DESCRIPTION_INFORMATION' => 'Opis dodatkowy',
 	'LBL_DESCRIPTION' => 'Opis:',
+    'LBL_DIRECTION' => 'Kierunek:',
 	'LBL_DURATION_HOURS' => 'Czas trwania w godzinach:',
 	'LBL_DURATION_MINUTES' => 'Czas trwania w minutach:',
 	'LBL_DURATION' => 'Czas trwania:',
-	'LBL_EMAIL' => 'Email',
+	'LBL_EMAIL' => 'E-mail',
 	'LBL_FIRST_NAME' => 'Imię',
 	'LBL_HISTORY_SUBPANEL_TITLE' => 'Notatki',
 	'LBL_HOURS_ABBREV' => 'h',
 	'LBL_HOURS_MINS' => '(godziny/minuty)',
-	'LBL_INVITEE' => 'Zaproszeni',
+	'LBL_INVITEE' => 'Uczestnicy',
 	'LBL_LAST_NAME' => 'Nazwisko',
-	'LBL_ASSIGNED_TO_NAME'=>'Przydzielone do:',
+	'LBL_ASSIGNED_TO_NAME'=>'Przydzielony do:',
 	'LBL_LIST_ASSIGNED_TO_NAME' => 'Przydzielony użytkownik',
 	'LBL_LIST_CLOSE' => 'Zamknij',
 	'LBL_LIST_CONTACT' => 'Kontakt',
 	'LBL_LIST_DATE_MODIFIED'=>'Data modyfikacji',
-	'LBL_LIST_DATE' => 'Data Rozpoczęcia',
- 	'LBL_LIST_DUE_DATE'=>'Termin',
+	'LBL_LIST_DATE' => 'Data rozpoczęcia',
+	'LBL_LIST_DIRECTION' => 'Kierunek',
+	'LBL_LIST_DUE_DATE'=>'Data ukończenia',
 	'LBL_LIST_FORM_TITLE' => 'Lista spotkań',
 	'LBL_LIST_MY_MEETINGS' => 'Moje spotkania',
-	'LBL_LIST_RELATED_TO' => 'Podlega',
+	'LBL_LIST_RELATED_TO' => 'Powiązany z',
 	'LBL_LIST_STATUS'=>'Status',
 	'LBL_LIST_SUBJECT' => 'Temat',
 	'LBL_LIST_TIME' => 'Czas rozpoczęcia',
-	'LBL_LEADS_SUBPANEL_TUTLE' => 'Wizytówki',
-	'LBL_LOCATION' => 'Miejsce spotkania:',
-	'LBL_MEETING' => 'Spotkanie:',
+	'LBL_LEADS_SUBPANEL_TITLE' => 'Potencjalni Klienci',
+	'LBL_LOCATION' => 'Lokalizacja:',
+	'LBL_MEETING' => 'Spotkania:',
 	'LBL_MINSS_ABBREV' => 'm',
-	'LBL_MODIFIED_BY'=>'Zmodyfikowane przez',
+	'LBL_MODIFIED_BY'=>'Modyfikowany przez',
 	'LBL_MODULE_NAME' => 'Spotkania',
 	'LBL_MODULE_TITLE' => 'Spotkania: Strona główna',
 	'LBL_NAME' => 'Nazwa',
-	'LBL_NEW_FORM_TITLE' => 'Haromonogram spotkań',
+	'LBL_NEW_FORM_TITLE' => 'Utwórz termin spotkania',
 	'LBL_OUTLOOK_ID' => 'Outlook ID',
-  'LBL_PHONE' => 'Telefon do biura:',
-	'LBL_REMINDER_TIME'=>'Czas przypominacza',
-	'LBL_REMINDER' => 'Przypominacz:',
+	'LBL_SEQUENCE' => 'Sekwencja aktualizacji spotkań',
+	'LBL_PHONE' => 'Telefon:',
+	'LBL_REMINDER_TIME'=>'Czas przypomnienia',
+    'LBL_EMAIL_REMINDER_SENT' => 'Wysłano przypomnienia',
+	'LBL_REMINDER' => 'Przypomnienia:',
+	'LBL_REMINDER_POPUP' => 'Okna Popup',
+	'LBL_REMINDER_EMAIL' => 'E-mail',
+    'LBL_REMINDER_EMAIL_ALL_INVITEES' => 'Powiadom wszystkich uczestników',
+    'LBL_EMAIL_REMINDER' => 'Przypomnienie e-mail',
+    'LBL_EMAIL_REMINDER_TIME' => 'Czas przypomnienia e-mail',
+    'LBL_REMOVE' => 'Usuń',
 	'LBL_SCHEDULING_FORM_TITLE' => 'Harmonogram',
 	'LBL_SEARCH_BUTTON'=> 'Szukaj',
-	'LBL_SEARCH_FORM_TITLE' => 'Szukanie spotkań',
+	'LBL_SEARCH_FORM_TITLE' => 'Wyszukiwanie spotkania',
 	'LBL_SEND_BUTTON_KEY'=>'I',
-	'LBL_SEND_BUTTON_LABEL'=>'Wyślij zaproszenia',
-	'LBL_SEND_BUTTON_TITLE'=>'Wyślij zaproszenia [Alt+I]',
+	'LBL_SEND_BUTTON_LABEL'=>'Zapisz i wyślij zaproszenia',
+	'LBL_SEND_BUTTON_TITLE'=>'Zapisz i wyślij zaproszenia',
 	'LBL_STATUS' => 'Status:',
+    'LBL_TYPE' => 'Typ spotkania',
+    'LBL_PASSWORD' => 'Spotkanie Hasło',
+    'LBL_URL' => 'Start / Dołącz do spotkania',
+    'LBL_HOST_URL' => 'Host URL',
+    'LBL_DISPLAYED_URL' => 'Wyświetlany adres URL',
+    'LBL_CREATOR' => 'Kreator spotkania',
+    'LBL_EXTERNALID' => 'ID aplikacji zewnętrznych',
 	'LBL_SUBJECT' => 'Temat:',
-	'LBL_TIME' => 'Czas rozpoczęcia:',
+	'LBL_TIME' => 'Czas rozpoczęcia:', 
 	'LBL_USERS_SUBPANEL_TITLE' => 'Użytkownicy',
+	'LBL_ACTIVITIES_REPORTS' => 'Raport aktywności',
+    'LBL_PARENT_TYPE' => 'Typ rodzica',
+    'LBL_PARENT_ID' => 'Identyfikator rodzica',
+	'LNK_MEETING_LIST'=>'Lista spotkań',
+	'LNK_NEW_APPOINTMENT' => 'Utwórz termin spotkania',
+	'LNK_NEW_MEETING'=>'Utwórz spotkanie',
+	'LNK_IMPORT_MEETINGS' => 'Importuj spotkania',
 
-	'LNK_CALL_LIST'=>'Lista rozmów',
-	'LNK_EMAIL_LIST'=>'Lista wiadomości',
-	'LNK_MEETING_LIST'=>'Spotkania',
-	'LNK_NEW_APPOINTMENT' => 'Zaplanuj spotkanie',
-	'LNK_NEW_CALL'=>'Zaplanuj rozmowę tel.',
-	'LNK_NEW_EMAIL'=>'Zarchiwizuj wiadomość pocztową',
-	'LNK_NEW_MEETING'=>'Zaplanuj spotkanie',
-	'LNK_NEW_NOTE'=>'Utwórz notatkę lub załącznik',
-	'LNK_NEW_TASK'=>'Lista zadań',
-	'LNK_NOTE_LIST'=>'Lista notatek',
-	'LNK_TASK_LIST'=>'Lista zadań',
-	'LNK_VIEW_CALENDAR' => 'Dzisiaj',
+	'NTC_REMOVE_INVITEE' => 'Czy na pewno chcesz usunąć uczestnika spotkania?',
+    'LBL_CREATED_USER' => 'Utworzone przez użytkownika',
+    'LBL_MODIFIED_USER' => 'Użytkownik modyfikujący',
+    'NOTICE_DURATION_TIME' => 'Czas trwania musi być większy od 0',
+    'LBL_MEETING_INFORMATION' => 'Informacje',
+	'LBL_LIST_JOIN_MEETING' => 'Dołącz do spotkania',
+	'LBL_JOIN_EXT_MEETING' => 'Dołącz do spotkania',
+	'LBL_HOST_EXT_MEETING' => 'Rozpocząć spotkanie',
+    'LBL_ACCEPT_STATUS' => 'Status akceptacji',
+    'LBL_ACCEPT_LINK' => 'Akceptuje Link',
+    // You are not invited to the meeting messages
+    'LBL_EXTNOT_HEADER' => 'Błąd: Brak zaproszenia',
+    'LBL_EXTNOT_MAIN' => 'Nie jesteś w stanie dołączyć do tego spotkania, ponieważ nie posiadasz zaproszonenia.',
+    'LBL_EXTNOT_RECORD_LINK' => 'Wyświetl spotkania',
+    'LBL_EXTNOT_GO_BACK' => 'Wróć do poprzedniego rekordu',
 
-	'NTC_REMOVE_INVITEE' => 'Czy na pewno chcesz usunąć te zaproszenia ze spotkania?',
-	'LBL_CREATED_USER' => 'Użytkownik tworzący',
-	'LBL_MODIFIED_USER' => 'Użytkownik modyfikujący',
-	'NOTICE_DURATION_TIME' => 'Czas trwania musi być większy niż 0',
-//	'LBL_ASSIGNED_TO'=>'Przydzielone do:',
+    //cannot start messages
+    'LBL_EXTNOSTART_HEADER' => 'Błąd: Nie można rozpocząć spotkania',
+    'LBL_EXTNOSTART_MAIN' => 'Nie można uruchomić tego spotkania, ponieważ nie jesteś administratorem lub właścicielem spotkania.',
+
+  //For export labels
+    'LBL_EXPORT_JOIN_URL' => 'Dołącz Url',
+    'LBL_EXPORT_HOST_URL' => 'Host Url',
+    'LBL_EXPORT_DISPLAYED_URL' => 'Wyświetlany Url',
+    'LBL_EXPORT_ASSIGNED_USER_ID' => 'Przydzielony do (ID użytkownika)',
+    'LBL_EXPORT_EXTERNAL_ID' => 'Zewnętrzny Identyfikator',
+    'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Przydzielony użytkownik',
+    'LBL_EXPORT_MODIFIED_USER_ID' => 'Zmodyfikowane przez (ID)',
+    'LBL_EXPORT_CREATED_BY' => 'Utworzony przez (ID)',
+
+    'LBL_EXPORT_DATE_START' => 'Data i czas rozpoczęcia',
+    'LBL_EXPORT_DATE_END' => 'Data i czas zakończenia',
+    'LBL_EXPORT_PARENT_TYPE' => 'Powiązany Typ',
+    'LBL_EXPORT_PARENT_ID' => 'Identyfikator rodzica',
+    'LBL_EXPORT_REMINDER_TIME' =>'Czas przypomnienia (w minutach)',
+
+    // create invitee functionallity
+    'LBL_CREATE_INVITEE' => 'Dodaj uczestnika',
+    'LBL_CREATE_CONTACT' => 'Utwórz kontakt',
+    'LBL_CREATE_LEAD' => 'Utwórz Potencjalnego Klienta',
+    'LBL_CREATE_AND_ADD' => 'Utwórz i Dodaj',
+    'LBL_CANCEL_CREATE_INVITEE' => 'Anuluj',
+    'LBL_EMPTY_SEARCH_RESULT' => 'Przepraszamy, nie znaleziono uczestników. Proszę utworzyć uczestnika.',
+    'LBL_NO_ACCESS' => 'Nie masz uprawnień do tworzenia w module: $module',
+    
+    'LBL_REPEAT_TYPE' => 'Powtarzanie',
+    'LBL_REPEAT_INTERVAL' => 'Częstotliwość powtarzania',
+    'LBL_REPEAT_DOW' => 'Dni tygodnia',
+    'LBL_REPEAT_UNTIL' => 'Powtarzaj, aż',
+    'LBL_REPEAT_COUNT' => 'Liczba powtórzeń',
+    'LBL_REPEAT_PARENT_ID' => 'Identyfikator rodzica',
+    'LBL_RECURRING_SOURCE' => 'Powtarzalne źródło',
+    
+    'LBL_SYNCED_RECURRING_MSG' => 'To spotkanie pochodzi z innego systemu i zostało zsynchronizowane z Sugar CRM. Aby wprowadzić zmiany, przejdź do spotkania w innym systemie. Zmiany dokonane w innym systemie będą synchronizowane z tym rekordem.',
+    'LBL_RELATED_TO' => 'Powiązany z:',
 );
 ?>

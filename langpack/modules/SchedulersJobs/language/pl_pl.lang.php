@@ -1,36 +1,36 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
-/*********************************************************************************
- * pl_pl.lang.php,v for SugarCRM 4.5.1-->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
 $mod_strings = array (
-'LBL_EXECUTE_TIME'			=> 'Czas wkonania',
+'LBL_NAME' => 'Nazwa zadania',
+'LBL_EXECUTE_TIME'			=> 'Czas uruchomienia',
+'LBL_SCHEDULER_ID' 	=> 'Harmonogram',
+'LBL_STATUS' 	=> 'Status zadania',
+'LBL_RESOLUTION' 	=> 'Rezultat',
+'LBL_MESSAGE' 	=> 'Wiadomości',
+'LBL_DATA' 	=> 'Data zadania',
+'LBL_REQUEUE' 	=> 'Ponów w przypadku niepoprawnego wykonania',
+'LBL_RETRY_COUNT' 	=> 'Maksymalna liczba ponownych prób',
+'LBL_FAIL_COUNT' 	=> 'Ilość prób',
+'LBL_INTERVAL' 	=> 'Odstęp pomiędzy próbami',
+'LBL_CLIENT' 	=> 'Właściciel klienta',
+'LBL_PERCENT'	=> 'Procent wykonania',
+// Errors
+'ERR_CALL' 	=> "Nie można wywołać funkcji: %s",
+'ERR_CURL' => "Brak biblioteki CURL - nie można uruchomić zadań",
+'ERR_FAILED' => "Nieoczekiwany błąd, należy sprawdzić logi PHP oraz sugarcrm.log",
+'ERR_PHP' => "%s [%d]: %s w %s w linii %d",
+'ERR_NOUSER' => "Nie określono id użytkownika dla zadania",
+'ERR_NOSUCHUSER' => "ID użytkownika %s nie został odnaleziony",
+'ERR_JOBTYPE' 	=> "Nieznany typ zadania: %s",
+'ERR_TIMEOUT' => "Wymuszone przerwanie zadania z powodu przekroczenia czasu wykonania skryptu",
+'ERR_JOB_FAILED_VERBOSE' => 'Zadanie %1$s (%2$s) zostało przerwane podczas uruchomienia',
 );
-
-?>

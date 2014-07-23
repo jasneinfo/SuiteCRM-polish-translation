@@ -1,34 +1,13 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
-
-/*********************************************************************************
- * pl_pl.lang.ext.php,v for SugarCRM 4.5.1 ->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Pracownicy',
@@ -44,84 +23,111 @@ $mod_strings = array (
   'LBL_TIMEZONE' => 'Czas bieżący:',
   'LBL_CURRENCY' => 'Waluta:',
   'LBL_LIST_NAME' => 'Nazwa',
-  'LBL_LIST_LAST_NAME' => 'Imię',
-  'LBL_LIST_EMPLOYEE_NAME' => 'Stanowisko',
-  'LBL_LIST_DEPARTMENT' => 'Departament',
+  'LBL_LIST_LAST_NAME' => 'Nazwisko',
+  'LBL_LIST_EMPLOYEE_NAME' => 'Nazwa',
+  'LBL_LIST_DEPARTMENT' => 'Dział',
   'LBL_LIST_REPORTS_TO_NAME' => 'Raportuje do',
-  'LBL_LIST_EMAIL' => 'Email',
+  'LBL_LIST_EMAIL' => 'E-mail',
   'LBL_LIST_PRIMARY_PHONE' => 'Telefon',
   'LBL_LIST_USER_NAME' => 'Nazwa użytkownika',
   'LBL_LIST_ADMIN' => 'Admin',
-  'LBL_NEW_EMPLOYEE_BUTTON_TITLE' => 'Nowy pracownik [Alt+N]',
+  'LBL_NEW_EMPLOYEE_BUTTON_TITLE' => 'Nowy pracownik',
   'LBL_NEW_EMPLOYEE_BUTTON_LABEL' => 'Nowy pracownik',
   'LBL_NEW_EMPLOYEE_BUTTON_KEY' => 'N',
   'LBL_ERROR' => 'Błąd:',
   'LBL_PASSWORD' => 'Hasło:',
-  'LBL_EMPLOYEE_NAME' => 'Stanowisko:',
+  'LBL_EMPLOYEE_NAME' => 'Nazwa:',
   'LBL_USER_NAME' => 'Nazwa użytkownika:',
+  'LBL_USER_TYPE' => 'Typ użytkownika',
   'LBL_FIRST_NAME' => 'Imię:',
   'LBL_LAST_NAME' => 'Nazwisko:',
   'LBL_EMPLOYEE_SETTINGS' => 'Ustawienia pracownika',
-  'LBL_THEME' => 'Temat:',
+  'LBL_THEME' => 'Szablon:',
   'LBL_LANGUAGE' => 'Język:',
   'LBL_ADMIN' => 'Administrator:',
   'LBL_EMPLOYEE_INFORMATION' => 'Informacje o pracowniku',
-  'LBL_OFFICE_PHONE' => 'Telefon do biura:',
+  'LBL_OFFICE_PHONE' => 'Tel. służbowy:',
   'LBL_REPORTS_TO' => 'Raportuje do ID:',
   'LBL_REPORTS_TO_NAME' => 'Raportuje do:',
-  'LBL_OTHER_PHONE' => 'Inne:',
-  'LBL_OTHER_EMAIL' => 'Dodatkowy mail:',
+  'LBL_OTHER_PHONE' => 'Dodatkowy telefon:',
+  'LBL_OTHER_EMAIL' => 'Dodatkowy adres email:',
   'LBL_NOTES' => 'Notatki:',
-  'LBL_DEPARTMENT' => 'Departament:',
+  'LBL_DEPARTMENT' => 'Dział:',
   'LBL_TITLE' => 'Tytuł:',
-  'LBL_ANY_PHONE' => 'Telefon:',
-  'LBL_ANY_EMAIL' => 'Mail:',
+  'LBL_ANY_ADDRESS' => 'Dodatkowy Adres:',
+  'LBL_ANY_PHONE' => 'Numer telefonu:',
+  'LBL_ANY_EMAIL' => 'Email:',
   'LBL_ADDRESS' => 'Adres:',
   'LBL_CITY' => 'Miasto:',
-  'LBL_STATE' => 'Woj.:',
+  'LBL_STATE' => 'Województwo:',
   'LBL_POSTAL_CODE' => 'Kod pocztowy:',
   'LBL_COUNTRY' => 'Kraj:',
   'LBL_NAME' => 'Nazwa:',
-  'LBL_MOBILE_PHONE' => 'Mobile:',
-  'LBL_OTHER' => 'Inny:',
-  'LBL_FAX' => 'Fax:',
-  'LBL_EMAIL' => 'Email:',
+  'LBL_MOBILE_PHONE' => 'Tel. komórkowy:',
+  'LBL_OTHER' => 'Dodatkowy telefon',
+  'LBL_FAX' => 'Faks:',
+  'LBL_EMAIL' => 'Adresy e-mail:',
+  'LBL_EMAIL_LINK_TYPE'				=> 'Klient poczty',
+  'LBL_EMAIL_LINK_TYPE_HELP'			=> '<b>Sugar klient poczty:</b> Wyślij e-mail za pomocą klienta poczty w aplikacji Sugar.<br><b>Zewnętrzny klient poczty:</b> Wyślij e-mail za pomocą klienta poczty poza aplikacją Sugar, takich jak Microsoft Outlook.',
   'LBL_HOME_PHONE' => 'Telefon domowy:',
   'LBL_WORK_PHONE' => 'Telefon do pracy:',
-  'LBL_ADDRESS_INFORMATION' => 'Adres korespondencyjny',
+  'LBL_ADDRESS_INFORMATION' => 'Informacje adresowe',
   'LBL_EMPLOYEE_STATUS' => 'Status zatrudnienia:',
-  'LBL_PRIMARY_ADDRESS' => 'Podstawowy adres:',
-  'LBL_CREATE_USER_BUTTON_TITLE' => 'Utwórz użytkownika [Alt+N]',
+  'LBL_PRIMARY_ADDRESS' => 'Adres:',
+  'LBL_SAVED_SEARCH' => 'Opcje szablonu',
+  'LBL_CREATE_USER_BUTTON_TITLE' => 'Utwórz użytkownika',
   'LBL_CREATE_USER_BUTTON_LABEL' => 'Utwórz użytkownika',
   'LBL_CREATE_USER_BUTTON_KEY' => 'N',
   'LBL_FAVORITE_COLOR' => 'Ulubiony kolor:',
   'LBL_MESSENGER_ID' => 'Identyfikator IM:',
   'LBL_MESSENGER_TYPE' => 'Typ IM:',
-  'ERR_EMPLOYEE_NAME_EXISTS_1' => 'Wybrana nazwa pracownika ',
-  'ERR_EMPLOYEE_NAME_EXISTS_2' => ' już istnieje.  Nie można duplikować nazw pracowników.  proszę wybrać inną nazwę. Wybierz unikalną nazwę dla pracownika',
-  'ERR_LAST_ADMIN_1' => 'Wybrany pracownik',
-  'ERR_LAST_ADMIN_2' => '" jest ostatnim z prawami administratora.  Co najmniej jeden pracownik musi posiadać prawa administratora.',
+  'ERR_EMPLOYEE_NAME_EXISTS_1' => 'Wybrana nazwa ',
+  'ERR_EMPLOYEE_NAME_EXISTS_2' => ' już istnieje. Nie można duplikować nazw pracowników. Proszę wybrać inną nazwę.',
+  'ERR_LAST_ADMIN_1' => 'Wybrany pracownik ',
+  'ERR_LAST_ADMIN_2' => ' jest ostatnim z prawami administratora. Co najmniej jeden pracownik musi posiadać prawa administratora.',
   'LNK_NEW_EMPLOYEE' => 'Utwórz pracownika',
-  'LNK_EMPLOYEE_LIST' => 'Pracownicy',
-  'ERR_DELETE_RECORD' => 'Musisz podać numer rekordu, aby usunąć konto.',
+  'LNK_EMPLOYEE_LIST' => 'Lista pracowników',
+  'ERR_DELETE_RECORD' => 'Aby usunąć pracownika musisz określić numer rekordu.',
+  'LBL_LIST_EMPLOYEE_STATUS' => 'Status pracownika',
 
-  'LBL_DEFAULT_TEAM' => 'Domyślny zespół:',
-  'LBL_DEFAULT_TEAM_TEXT' => 'Wybiera domyślny zespół dla nowych rekordów',
-  'LBL_MY_TEAMS' => 'Moje zespoły',
-  'LBL_LIST_DESCRIPTION' => 'Opis',
-  'LNK_EDIT_TABS'=>'Edytuj zakładki',
-  'NTC_REMOVE_TEAM_MEMBER_CONFIRMATION' => 'Czy na pewno chcesz usunąć członkostwo tego pracownika?',
-
-  'LBL_LIST_EMPLOYEE_STATUS' => 'Status zatrudnienia',
-
-// Poniższych zakładek nie ma:
-
-'LBL_SUGAR_LOGIN' => 'Pozwolić na logowanie?',
-'LBL_RECEIVE_NOTIFICATIONS' => 'Wysyłanie powiadomień',
-'LBL_IS_ADMIN' => 'Prawa administratora',
-'LBL_PORTAL_ONLY' => 'Użytkownik portalu',
-'LBL_GROUP' => 'Użytkownik grupowy',
-
+  'LBL_SUGAR_LOGIN' => 'Pozwolić na logowanie?',
+  'LBL_RECEIVE_NOTIFICATIONS' => 'Wysyłanie powiadomień',
+  'LBL_IS_ADMIN' => 'Prawa administratora',  
+  'LBL_GROUP' => 'Nazwa grupy:',
+  'LBL_PORTAL_ONLY'	=> 'Użytkownik portalu',
+  'LBL_PHOTO'	=> 'Zdjęcie',
+  'LBL_DELETE_USER_CONFIRM'           => 'Ten pracownik jest również użytkownikiem. Usuwanie rekordu Pracownik także usunie rekord użytkownika, a Użytkownik nie będzie mógł uzyskać dostęp do aplikacji. Czy chcesz kontynuować usuwanie tego rekordu?',
+  'LBL_DELETE_EMPLOYEE_CONFIRM'       => 'Czy na pewno chcesz usunąć tego pracownika?',
+  'LBL_ONLY_ACTIVE' => 'Aktywni pracownicy',
+	'LBL_SELECT' => 'Wybierz' /*for 508 compliance fix*/,
+	'LBL_FF_CLEAR' => 'Wyczyść' /*for 508 compliance fix*/,
+  'LBL_AUTHENTICATE_ID' => 'Id uwierzytelniania',
+  'LBL_EXT_AUTHENTICATE' => 'Uwierzytelnianie zewnętrzne',
+  'LBL_GROUP_USER' => 'Nazwa grupy:',
+  'LBL_LIST_ACCEPT_STATUS' => 'Status akceptacji',
+  'LBL_MODIFIED_BY' =>'Modyfikowany przez',
+  'LBL_MODIFIED_BY_ID' =>'Zmodyfikowane przez (ID)',
+  'LBL_CREATED_BY_NAME' => 'Utworzony przez', //bug48978
+  'LBL_PORTAL_ONLY_USER' => 'Portal API użytkownika',
+  'LBL_PSW_MODIFIED' => 'Ostatnia zmiana hasła',
+  'LBL_SHOW_ON_EMPLOYEES' => 'Wyświetl rekord pracownika',
+  'LBL_USER_HASH' => 'Hasło',
+  'LBL_SYSTEM_GENERATED_PASSWORD' =>'Wygenerowane systemowo hasło',
+  'LBL_DESCRIPTION'	=> 'Opis',
+  'LBL_FAX_PHONE'						=> 'Fax',
+  'LBL_FAX'							=> 'Fax',
+  'LBL_STATUS'						=> 'Status',
+  'LBL_ADDRESS_CITY'					=> 'Adres miasto',
+  'LBL_ADDRESS_COUNTRY'				=> 'Adres kraj',
+  'LBL_ADDRESS_INFORMATION'			=> 'Informacje adresowe',
+  'LBL_ADDRESS_POSTALCODE'			=> 'Adres kod pocztowy',
+  'LBL_ADDRESS_STATE'					=> 'Adres województwo',
+  'LBL_ADDRESS_STREET'				=> 'Adres ulica',
+  'LBL_ADDRESS'						=> 'Adres',
+  
+  'LBL_DATE_MODIFIED' => 'Data modyfikacji',
+  'LBL_DATE_ENTERED' => 'Data wprowadzenia',
+  'LBL_DELETED' => 'Usunięte',
 );
 
 

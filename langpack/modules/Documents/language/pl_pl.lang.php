@@ -1,34 +1,13 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
-
-/*********************************************************************************
- * pl_pl.lang.ext.php,v for SugarCRM 4.5.1-->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
 $mod_strings = array (
 	//module
@@ -36,75 +15,88 @@ $mod_strings = array (
 	'LBL_MODULE_TITLE' => 'Dokumenty: Strona główna',
 	'LNK_NEW_DOCUMENT' => 'Utwórz dokument',
 	'LNK_DOCUMENT_LIST'=> 'Lista dokumentów',
-	'LBL_DOC_REV_HEADER' => 'Wersja dokumentu',
-	'LBL_SEARCH_FORM_TITLE'=> 'Szukanie dokumentów',
+	'LBL_DOC_REV_HEADER' => 'Rewizja dokumentu',
+	'LBL_SEARCH_FORM_TITLE'=> 'Wyszukiwanie dokumentu',
 	//vardef labels
-	'LBL_DOCUMENT_ID' => 'ID dokumentu',	
+	'LBL_DOCUMENT_ID' => 'ID Dokumentu',
 	'LBL_NAME' => 'Nazwa dokumentu',
 	'LBL_DESCRIPTION' => 'Opis',
 	'LBL_CATEGORY' => 'Kategoria',
 	'LBL_SUBCATEGORY' => 'Podkategoria',
-	'LBL_STATUS' => 'Status', 
+	'LBL_STATUS' => 'Status',
 	'LBL_CREATED_BY'=> 'Utworzony przez',
-	'LBL_DATE_ENTERED'=> 'Data wprowadzenia',
+	'LBL_DATE_ENTERED'=> 'Data utworzenia',
 	'LBL_DATE_MODIFIED'=> 'Data modyfikacji',
-	'LBL_DELETED' => 'Usunięty',
-	'LBL_MODIFIED'=> 'Zmodyfikowany przez ID',
-	'LBL_MODIFIED_USER'=> 'Zmodyfikowany przez',
+	'LBL_DELETED' => 'Usunięte',
+	'LBL_MODIFIED'=> 'Zmodyfikowane przez (ID)',
+	'LBL_MODIFIED_USER' => 'Modyfikowany przez',
 	'LBL_CREATED'=> 'Utworzony przez',
-	'LBL_REVISIONS'=>'Wersje',
-	'LBL_RELATED_DOCUMENT_ID'=>'ID dokumentów połączonych',
-	'LBL_RELATED_DOCUMENT_REVISION_ID'=>'ID wersji dokumentów połączonych',
+	'LBL_REVISIONS'=>'Rewizje',
+	'LBL_RELATED_DOCUMENT_ID'=>'ID dokumentu powiązanego',
+	'LBL_RELATED_DOCUMENT_REVISION_ID'=>'ID rewizji dokumentu powiązanego',
 	'LBL_IS_TEMPLATE'=>'Jest szablonem',
 	'LBL_TEMPLATE_TYPE'=>'Typ dokumentu',
-	'LBL_ASSIGNED_TO_NAME'=>'Przydzielone do:',
-	'LBL_REVISION_NAME' => 'Numer wersji',
-	'LBL_MIME' => 'Typ mime',
-	'LBL_REVISION' => 'Wersja',
-	'LBL_DOCUMENT' => 'Połączone dokumenty',
-	'LBL_LATEST_REVISION' => 'Najnowsza wersja',
-	'LBL_CHANGE_LOG'=> 'Dziennik zmian',
+	'LBL_ASSIGNED_TO_NAME'=>'Przydzielony do:',
+	'LBL_REVISION_NAME' => 'Numer rewizji',
+	'LBL_MIME' => 'Typ [Mime]',
+	'LBL_REVISION' => 'Rewizja',
+	'LBL_DOCUMENT' => 'Powiązane dokumenty',
+	'LBL_LATEST_REVISION' => 'Ostatnia rewizja',
+	'LBL_CHANGE_LOG'=> 'Historia zmian',
 	'LBL_ACTIVE_DATE'=> 'Data publikacji',
-	'LBL_EXPIRATION_DATE' => 'Data wyganiecia',
+	'LBL_EXPIRATION_DATE' => 'Data wygaśnięcia',
 	'LBL_FILE_EXTENSION'  => 'Rozszerzenie pliku',
-	
+	'LBL_LAST_REV_MIME_TYPE' => 'Ostatnia wersja typu MIME',
 	'LBL_CAT_OR_SUBCAT_UNSPEC'=>'Niesprecyzowany',
+    'LBL_HOMEPAGE_TITLE' => 'Moje dokumenty',
 	//quick search
-	'LBL_NEW_FORM_TITLE' => 'Nowy dokument',
+	'LBL_NEW_FORM_TITLE' => 'Dodaj dokument',
 	//document edit and detail view
 	'LBL_DOC_NAME' => 'Nazwa dokumentu:',
 	'LBL_FILENAME' => 'Nazwa pliku:',
-	'LBL_DOC_VERSION' => 'Wersja:',
+	'LBL_LIST_FILENAME' => 'Plik:',
+	'LBL_DOC_VERSION' => 'Rewizja:',
+	'LBL_FILE_UPLOAD' => 'Plik:',
+
 	'LBL_CATEGORY_VALUE' => 'Kategoria:',
+	'LBL_LIST_CATEGORY' => 'Kategoria',
 	'LBL_SUBCATEGORY_VALUE'=> 'Podkategoria:',
 	'LBL_DOC_STATUS'=> 'Status:',
 	'LBL_LAST_REV_CREATOR' => 'Wersja utworzona przez:',
+	'LBL_LASTEST_REVISION_NAME' => 'Nazwa ostatniej wersji:',
+	'LBL_SELECTED_REVISION_NAME' => 'Nazwa zaznaczonej wersji:',
+	'LBL_CONTRACT_STATUS' => 'Status umowy:',
+	'LBL_CONTRACT_NAME' => 'Nazwa umowy:',
 	'LBL_LAST_REV_DATE' => 'Data wersji:',
-	'LBL_DOWNNLOAD_FILE'=> 'Ściągnij plik:',
-	'LBL_DET_RELATED_DOCUMENT'=>'Dokumenty połączone:',
-	'LBL_DET_RELATED_DOCUMENT_VERSION'=>"Wersja dokumentów połaczonych:",
-	'LBL_DET_IS_TEMPLATE'=>'Szkic? :',
+	'LBL_DOWNNLOAD_FILE'=> 'Pobierz plik:',
+	'LBL_DET_RELATED_DOCUMENT'=>'Powiązany dokument:',
+	'LBL_DET_RELATED_DOCUMENT_VERSION'=>'Wersja powiązanego dokumentu:',
+	'LBL_DET_IS_TEMPLATE'=>'Szablon? :',
 	'LBL_DET_TEMPLATE_TYPE'=>'Typ dokumentu:',
-
-	'LBL_TEAM'=> 'Zespół:',
-
 	'LBL_DOC_DESCRIPTION'=>'Opis:',
 	'LBL_DOC_ACTIVE_DATE'=> 'Data publikacji:',
 	'LBL_DOC_EXP_DATE'=> 'Data wygaśnięcia:',
-	
-	//document list view.	
+
+	//document list view.
 	'LBL_LIST_FORM_TITLE' => 'Lista dokumentów',
 	'LBL_LIST_DOCUMENT' => 'Dokument',
 	'LBL_LIST_CATEGORY' => 'Kategoria',
 	'LBL_LIST_SUBCATEGORY' => 'Podkategoria',
-	'LBL_LIST_REVISION' => 'Wersja',
+	'LBL_LIST_REVISION' => 'Rewizja',
 	'LBL_LIST_LAST_REV_CREATOR' => 'Opublikowany przez',
-	'LBL_LIST_LAST_REV_DATE' => 'Data wersji',
+	'LBL_LIST_LAST_REV_DATE' => 'Data rewizji',
 	'LBL_LIST_VIEW_DOCUMENT'=>'Podgląd',
-	'LBL_LIST_DOWNLOAD'=> 'Pobierz',
+    'LBL_LIST_DOWNLOAD'=> 'Pobierz',
 	'LBL_LIST_ACTIVE_DATE' => 'Data publikacji',
 	'LBL_LIST_EXP_DATE' => 'Data wygaśnięcia',
 	'LBL_LIST_STATUS'=>'Status',
+	'LBL_LINKED_ID' => 'Powiązane id',
+	'LBL_SELECTED_REVISION_ID' => 'ID zaznaczonej rewizji',
+	'LBL_LATEST_REVISION_ID' => 'ID ostatniej rewizji',
+	'LBL_SELECTED_REVISION_FILENAME' => 'Nazwa pliku zaznaczonej rewizji',
+	'LBL_FILE_URL' => 'URL Pliku',
+    'LBL_REVISIONS_PANEL' => 'Szczegóły rewizji',
+    'LBL_REVISIONS_SUBPANEL' => 'Rewizje',
 
 	//document search form.
 	'LBL_SF_DOCUMENT' => 'Nazwa dokumentu:',
@@ -112,33 +104,55 @@ $mod_strings = array (
 	'LBL_SF_SUBCATEGORY'=> 'Podkategoria:',
 	'LBL_SF_ACTIVE_DATE' => 'Data publikacji:',
 	'LBL_SF_EXP_DATE'=> 'Data wygaśnięcia:',
-	
+
 	'DEF_CREATE_LOG' => 'Dokument utworzony przez',
-	
+
 	//error messages
 	'ERR_DOC_NAME'=>'Nazwa dokumentu',
 	'ERR_DOC_ACTIVE_DATE'=>'Data publikacji',
-	'ERR_DOC_EXP_DATE'=> 'Data wygaśniecia',
+	'ERR_DOC_EXP_DATE'=> 'Data wygaśnięcia',
 	'ERR_FILENAME'=> 'Nazwa pliku',
 	'ERR_DOC_VERSION'=> 'Wersja dokumentu',
 	'ERR_DELETE_CONFIRM'=> 'Czy chcesz usunąć tę wersję dokumentu?',
-	'ERR_DELETE_LATEST_VERSION'=> 'Nie jesteś uprawiony do usunięcia najnowszej wersji dokumentu.',
+	'ERR_DELETE_LATEST_VERSION'=> 'Brak uprawnień do usunięcia najnowszej wersji dokumentu.',
 	'LNK_NEW_MAIL_MERGE' => 'Scalanie poczty',
 	'LBL_MAIL_MERGE_DOCUMENT' => 'Szablon scalania poczty:',
+	'ERR_MISSING_FILE' => 'W tym dokumencie brakuje pliku, prwdopodobnie z powodu błędu podczas dodawania. Spróbuj ponownie dodać plik lub skontaktuj się z administratorem.',
 
 	'LBL_TREE_TITLE' => 'Dokumenty',
 	//sub-panel vardefs.
-	'LBL_LIST_DOCUMENT_NAME'=>'Nazwa dokument',
-	'LBL_CONTRACT_NAME'=>'Nazwa kontraktu:',
-	'LBL_LIST_IS_TEMPLATE'=>'Szkic?',
+	'LBL_LIST_DOCUMENT_NAME'=>'Nazwa',
+	'LBL_CONTRACT_NAME'=>'Nazwa umowy:',
+	'LBL_LIST_IS_TEMPLATE'=>'Szablon?',
 	'LBL_LIST_TEMPLATE_TYPE'=>'Typ dokumentu',
-	'LBL_LIST_SELECTED_REVISION'=>'Wybrane wersje',
-	'LBL_LIST_LATEST_REVISION'=>'Najnowsze wydanie',
-	'LBL_CONTRACTS_SUBPANEL_TITLE'=>'Połączone kontrakty',
-	'LBL_LAST_REV_CREATE_DATE'=>'Data utworzenia ostatniego wydania',
+	'LBL_LIST_SELECTED_REVISION'=>'Wybrane rewizje',
+	'LBL_LIST_LATEST_REVISION'=>'Ostatnia rewizja',
+	'LBL_CONTRACTS_SUBPANEL_TITLE'=>'Powiązane umowy',
+	'LBL_LAST_REV_CREATE_DATE'=>'Data utworzenia ostatniej rewizji',
     //'LNK_DOCUMENT_CAT'=>'Document Categories',
-    'LBL_CONTRACTS' => 'Kontrakty',
-    'LBL_CREATED_USER' => 'Użytkownik tworzący',
+    'LBL_CONTRACTS' => 'Umowy',
+    'LBL_CREATED_USER' => 'Utworzone przez użytkownika',
+    'LBL_THEREVISIONS_SUBPANEL_TITLE' => 'Rewersje',
+    'LBL_DOCUMENT_INFORMATION' => 'Informacje ogólne',
+	'LBL_DOC_ID' => 'Źródło dokumentu (ID)',
+	'LBL_DOC_TYPE' => 'Źródło',
+	'LBL_LIST_DOC_TYPE' => 'Źródło',
+    'LBL_DOC_TYPE_POPUP' => 'Wybierz źródło, do którego dokument zostanie dodany<br> i z którego będzie dostępny.',
+	'LBL_DOC_URL' => 'URL źródła dokumentu',
+    'LBL_SEARCH_EXTERNAL_DOCUMENT' => 'Nazwa pliku',
+    'LBL_EXTERNAL_DOCUMENT_NOTE' => 'Pierwszych 20 ostatnio zmodyfikowanych plików jest wyświetlonych na poniższej liście w kolejności alfabetycznej. Użyj wyszukiwania do znalezienia innych plików.',
+    'LBL_LIST_EXT_DOCUMENT_NAME' => 'Nazwa pliku',
+    'ERR_INVALID_EXTERNAL_API_ACCESS' => 'Użytkownik usiłował uzyskać dostęp za pomocą nieprawidłowego zewnętrznego API ({0})',
+    'ERR_INVALID_EXTERNAL_API_LOGIN' => 'Sprawdzenie loginu nie powiodło się dla zewnętrznego API ({0})',
+
+    // Links around the world
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Kontrahenci',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakty',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Szanse Sprzedaży',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Zgłoszenia',
+    'LBL_BUGS_SUBPANEL_TITLE' => 'Błędy',
+    'LBL_QUOTES_SUBPANEL_TITLE' => 'Oferty',
+	'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Produkty',
 );
 
 

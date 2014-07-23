@@ -1,144 +1,124 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
-
-/*********************************************************************************
- * pl_pl.lang.php,v for SugarCRM 4.5.1-->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
-
-
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
 $mod_strings = array (
-  'LBL_MODULE_NAME' => 'Tematy',
-  'LBL_MODULE_TITLE' => 'Tematy: Strona główna',
-  'LBL_SEARCH_FORM_TITLE' => 'Wyszukaj',
-  'LBL_VIEW_FORM_TITLE' => 'Widok tematów',
-  'LBL_LIST_FORM_TITLE' => 'Lista tematów',
-  'LBL_OPPORTUNITY_NAME' => 'Nazwa tematu:',
-  'LBL_OPPORTUNITY' => 'Temat:',
-  'LBL_NAME' => 'Nazwa Tematu',
+  'LBL_MODULE_NAME' => 'Szanse Sprzedaży',
+  'LBL_MODULE_TITLE' => 'Szanse Sprzedaży: Strona główna',
+  'LBL_SEARCH_FORM_TITLE' => 'Wyszukiwanie szans sprzedaży',
+  'LBL_VIEW_FORM_TITLE' => 'Podgląd szans sprzedaży',
+  'LBL_LIST_FORM_TITLE' => 'Lista szans sprzedaży',
+  'LBL_OPPORTUNITY_NAME' => 'Nazwa szansy sprzedaży:',
+  'LBL_OPPORTUNITY' => 'Szansa Sprzedaży:',
+  'LBL_NAME' => 'Nazwa szansy sprzedaży',
   'LBL_INVITEE' => 'Kontakty',
-  'LBL_LIST_OPPORTUNITY_NAME' => 'Temat',
-  'LBL_LIST_ACCOUNT_NAME' => 'Nazwa klienta',
-  'LBL_LIST_AMOUNT' => 'Kwota przychodu',
-  'LBL_LIST_DATE_CLOSED' => 'Zakończone',
-  'LBL_LIST_SALES_STAGE' => 'Etap sprzedaży',
-  'LBL_ACCOUNT_ID'=>'ID klienta',
-  'LBL_CURRENCY_ID'=>'ID waluty',
-  'LBL_CURRENCY_NAME'=>'Nazwa waluty',
-  'LBL_CURRENCY_SYMBOL'=>'Symbol waluty',
-
-  'LBL_TEAM_ID' =>'ID Zespołu',
-
+  'LBL_CURRENCIES' => 'Waluty',
+  'LBL_LIST_OPPORTUNITY_NAME' => 'Nazwa',
+  'LBL_LIST_ACCOUNT_NAME' => 'Nazwa kontrahenta',
+  'LBL_LIST_AMOUNT' => 'Kwota szansy sprzedaży',
+  'LBL_LIST_AMOUNT_USDOLLAR' => 'Kwota',
+  'LBL_LIST_DATE_CLOSED' => 'Zamknij',
+  'LBL_LIST_SALES_STAGE' => 'Etapy sprzedaży',
+  'LBL_ACCOUNT_ID'=>'ID Kontrahenta',
+  'LBL_CURRENCY_ID'=>'ID Waluty',
+  'LBL_CURRENCY_NAME'=>'Nazwa Waluty',
+  'LBL_CURRENCY_SYMBOL'=>'Symbol Waluty',
 //DON'T CONVERT THESE THEY ARE MAPPINGS
   'db_sales_stage' => 'LBL_LIST_SALES_STAGE',
   'db_name' => 'LBL_NAME',
   'db_amount' => 'LBL_LIST_AMOUNT',
   'db_date_closed' => 'LBL_LIST_DATE_CLOSED',
 //END DON'T CONVERT
-  'UPDATE' => 'Temat - Aktualizuj waluty',
-  'UPDATE_DOLLARAMOUNTS' => 'Aktualizuj przychody w USD',
-  'UPDATE_VERIFY' => 'Weryfikuj kwotę przychodu',
-  'UPDATE_VERIFY_TXT' => 'Weryfikuje tylko te wartości, które zapisane są w postaci cyfrowej (cyfry 0-9) oraz w postaci dziesiętnej.',
-  'UPDATE_FIX' => 'Napraw przychody',
-  'UPDATE_FIX_TXT' => 'Próba naprawienia wartości przychodów poprzez przekształcenie znalezionych wartości do postaci liczbowej. Obecne wartości zostaną zapisane w kopii bezpieczeństwa. Jeśli operacja spowoduje powstanie błędów możesz przywrócić poprzednie wartości z kopii bezpieczeństwa. Nie ponawiaj tej operacji po wykryciu nieprawidłowości. Grozi to nadpisaniem kopii bezpieczeństwa błędnymi danymi!.',
-  'UPDATE_DOLLARAMOUNTS_TXT' => 'Aktualizuje przychody z tematów w oparciu o przelicznik do waluty bazowej (USD). Wartości te są używane do sporządzania wykresów oraz zestwień wartości Ofert.',
+  'UPDATE' => 'Szansa Sprzedaży - Aktualizacja walut',
+  'UPDATE_DOLLARAMOUNTS' => 'Aktualizacja kwoty US Dollar',
+  'UPDATE_VERIFY' => 'Weryfikuj kwotę',
+  'UPDATE_VERIFY_TXT' => 'Weryfikuje czy wartości kwot w module sprzedaży są wyrażeniami dziesiętnymi, złożonymi wyłącznie ze znaków numerycznych (0-9) i dziesiętnych(.)',
+  'UPDATE_FIX' => 'Napraw kwotę',
+  'UPDATE_FIX_TXT' => 'Przeprowadza próbę naprawy niewłaściwych kwot przez stworzenie prawidłowych wyrażeń dziesiętnych. Każda modyfikacja kwoty jest zachowana w bazie, w polu amount_backup. Jeśli wykonasz tę operację i pojawi się błąd, nie uruchamiaj jej ponownie, zanim nie zostaną przywrócone poprzednie wartości. Inaczej można spowodować nadpisanie danych błędnymi wartościami.',
+  'UPDATE_DOLLARAMOUNTS_TXT' => 'Aktualizuje przychody z szans sprzedaży w oparciu o przelicznik do waluty bazowej (USD). Wartości te są używane do sporządzania wykresów oraz zestwień wartości szans sprzedaży.',
   'UPDATE_CREATE_CURRENCY' => 'Tworzenie nowej waluty:',
-  'UPDATE_VERIFY_FAIL' => 'Błąd weryfikacji rekordu:',
-  'UPDATE_VERIFY_CURAMOUNT' => 'Bierzące przychody:',
-  'UPDATE_VERIFY_FIX' => 'Running Fix would give',
-  'UPDATE_INCLUDE_CLOSE' => 'Dodaj zamknięte rekordy',
-  'UPDATE_VERIFY_NEWAMOUNT' => 'Nowy przychód:',
+  'UPDATE_VERIFY_FAIL' => 'Weryfikacja rekordu nie powiodła się:',
+  'UPDATE_VERIFY_CURAMOUNT' => 'Aktualna kwota:',
+  'UPDATE_VERIFY_FIX' => 'Wykonanie naprawy powinno dać',
+  'UPDATE_INCLUDE_CLOSE' => 'Weź pod uwagę zamknięte rekordy',
+  'UPDATE_VERIFY_NEWAMOUNT' => 'Nowy kwota:',
   'UPDATE_VERIFY_NEWCURRENCY' => 'Nowa waluta:',
-  'UPDATE_DONE' => 'Zrobione.',
+  'UPDATE_DONE' => 'Wykonano',
   'UPDATE_BUG_COUNT' => 'Znaleziono błąd, trwa próba naprawienia:',
   'UPDATE_BUGFOUND_COUNT' => 'Znalezione błędy:',
-  'UPDATE_COUNT' => 'Rekord zaktualizowany:',
-  'UPDATE_RESTORE_COUNT' => 'Odzyskano przychód:',
-  'UPDATE_RESTORE' => 'Odzyskiwanie przychodu',
-  'UPDATE_RESTORE_TXT' => 'Odzyskiwanie wartości przychodów z kopii bezpieczeństwa.',
+  'UPDATE_COUNT' => 'Rekordy zaktualizowane:',
+  'UPDATE_RESTORE_COUNT' => 'Przywrócono kwoty:',
+  'UPDATE_RESTORE' => 'Odzyskiwanie kwoty',
+  'UPDATE_RESTORE_TXT' => 'Odzyskiwanie wartości kwoty z kopii bezpieczeństwa.',
   'UPDATE_FAIL' => 'Nie mogę zaktualizować - ',
-  'UPDATE_NULL_VALUE' => 'Wartosć przychodu nieznana. Ustawiam na 0 -',
+  'UPDATE_NULL_VALUE' => 'Kwota ma wartość NULL. Ustawiam na 0 -',
   'UPDATE_MERGE' => 'Połącz waluty',
-  'UPDATE_MERGE_TXT' 						=> 'Łączy wiele walut w pojedynczą walutę. Użyj tej funkcji jeśli Twoje dane zawierają różne oznaczenia tej samej waluty np.: PLN, PLZ, ZŁ, zł. ',
-  'LBL_ACCOUNT_NAME' => 'Nazwa klienta:',
-  'LBL_AMOUNT' => 'Wartość tematu:',
-  'LBL_AMOUNT_USDOLLAR' => 'Wartość USD:',
+  'UPDATE_MERGE_TXT' => 'Łączenie różnych walut w jedną. Jeśli istnieją rózne rekordy dla tej samej waluty, możesz połączyć je razem. To spowoduje również połączenie tych walut w innych modułach.',
+  'LBL_ACCOUNT_NAME' => 'Nazwa Kontrahenta:',
+  'LBL_AMOUNT' => 'Kwota szansy sprzedaży:',
+  'LBL_AMOUNT_USDOLLAR' => 'Kwota:',
   'LBL_CURRENCY' => 'Waluta:',
-  'LBL_DATE_CLOSED' => 'Data zakończenia etapu:',
+  'LBL_DATE_CLOSED' => 'Oczekiwana data zamknięcia:',
   'LBL_TYPE' => 'Typ:',
-  'LBL_CAMPAIGN' => 'Kampania:',
+  'LBL_CAMPAIGN' => 'Kampania reklamowa:',
   'LBL_NEXT_STEP' => 'Następny krok:',
   'LBL_LEAD_SOURCE' => 'Źródło pozyskania:',
   'LBL_SALES_STAGE' => 'Etap sprzedaży:',
-  'LBL_PROBABILITY' => 'Szansa (%):',
+  'LBL_PROBABILITY' => 'Szansa sukcesu(%):',
   'LBL_DESCRIPTION' => 'Opis:',
-  'LBL_DUPLICATE' => 'Prawdopodobnie taki temat już istnieje',
-  'MSG_DUPLICATE' => 'Utworzenie tego tematu prawdopodobnie spowoduje powstanie duplikatu już istniejącego. Możesz wybrać istniejący temat z listy lub kontynuować klikając [Zapisz]. Operacja ta utworzy nowy temat wykorzystując dane, które wprowadziłeś za pomocą formularza. ',
-  'LBL_NEW_FORM_TITLE' => 'Dodaj temat',
-  'LNK_NEW_OPPORTUNITY' => 'Dodaj temat',
-
-  'LNK_OPPORTUNITY_REPORTS' => 'Raporty tematów',
-  'LNK_IMPORT_OPPORTUNITIES' => 'Import tematów',
-
-  'LNK_OPPORTUNITY_LIST' => 'Tematy',
-  'ERR_DELETE_RECORD' => 'Muszisz wybrac rekord, aby usunąć temat.',
-  'LBL_TOP_OPPORTUNITIES' => '10 moich najważniejszych tematów',
-  'NTC_REMOVE_OPP_CONFIRMATION' => 'Czy na pewno usunąć osoby Kontaktowe z tego tematu?',
-	'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'Czy na pewno chcesz usunąć to zadanie z tematu?',
-	'LBL_AMOUNT_BACKUP'=>'Wielkość backupu',
-	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Tematy',
-	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Działania',
+  'LBL_DUPLICATE' => 'Znaleziono rekord o podobnych danych',
+  'MSG_DUPLICATE' => 'Utworzenie tej szansy sprzedaży prawdopodobnie spowoduje powstanie duplikatu już istniejącej. Możesz wybrać istniejącą szansę sprzedaży z listy lub kontynuować klikając [Zapisz]. Operacja ta utworzy nową szansę sprzedaży wykorzystując dane, które wprowadziłeś za pomocą formularza.',
+  'LBL_NEW_FORM_TITLE' => 'Utwórz Szanse Sprzedaży',
+  'LNK_NEW_OPPORTUNITY' => 'Utwórz Szanse Sprzedaży',
+  'LNK_OPPORTUNITY_LIST' => 'Lista szans sprzedaży',
+  'ERR_DELETE_RECORD' => 'Aby usunąć szanse sprzedaży musisz określić numer rekordu.',
+  'LBL_TOP_OPPORTUNITIES' => 'Moje najlepsze trwające szanse sprzedaży',
+  'NTC_REMOVE_OPP_CONFIRMATION' => 'Czy na pewno usunąć osoby Kontaktowe z tej szansy sprzedaży?',
+	'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'Czy na pewno chcesz usunąć szansę sprzedaży z projektu?',
+	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Szanse Sprzedaży',
+	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Wydarzenia',
 	'LBL_HISTORY_SUBPANEL_TITLE'=>'Historia',
     'LBL_RAW_AMOUNT'=>'Wstępna Kwota',
 	
-    'LBL_LEADS_SUBPANEL_TITLE' => 'Wizytówki',
+    'LBL_LEADS_SUBPANEL_TITLE' => 'Potencjalni Klienci',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakty',
-
-    'LBL_QUOTES_SUBPANEL_TITLE' => 'Oferty',
-
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumenty',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekty',
-	    'LBL_ASSIGNED_TO_NAME' => 'Nazwa przydzielonego użytkownika:',
-
-	'LBL_CONTRACTS'=>'Kontrakty',
-	'LBL_CONTRACTS_SUBPANEL_TITLE'=>'Kontrakty',
-
+	'LBL_ASSIGNED_TO_NAME' => 'Przydzielony do:',
+	'LBL_LIST_ASSIGNED_TO_NAME' => 'Przydzielony użytkownik',
   'LBL_LIST_SALES_STAGE' => 'Etapy sprzedaży',
-  'LBL_MY_CLOSED_OPPORTUNITIES' => 'Moje zamknięte tematy',
-  'LBL_TOTAL_OPPORTUNITIES' => 'Wszystkie tematy',
-  'LBL_CLOSED_WON_OPPORTUNITIES' => 'Tematy zakończone wygraną',
-  'LBL_ASSIGNED_TO_ID' =>'Przydzielone do (ID)',
-  'LBL_CREATED_ID'=>'Utworzone przez (ID)',
+  'LBL_MY_CLOSED_OPPORTUNITIES' => 'Moje zakończone szanse sprzedaży',
+  'LBL_TOTAL_OPPORTUNITIES' => 'Wszystkie szanse sprzedaży',
+  'LBL_CLOSED_WON_OPPORTUNITIES' => 'Szanse sprzedaży zakończone powodzeniem',
+  'LBL_ASSIGNED_TO_ID' =>'Przydzielony użytkownik:',
+  'LBL_CREATED_ID'=>'Utworzony przez (ID)',
   'LBL_MODIFIED_ID'=>'Zmodyfikowane przez (ID)',
-  'LBL_MODIFIED_NAME'=>'Nazwa użytkownika modyfikującego',
-   'LBL_CREATED_USER' => 'Użytkownik tworzący',
-   'LBL_MODIFIED_USER' => 'Użytkownik modyfikujący',
-'LBL_CAMPAIGN_OPPORTUNITY' => 'Kampania',
+  'LBL_MODIFIED_NAME'=>'Zmodyfikowane przez użytkownika',
+    'LBL_CREATED_USER' => 'Utworzone przez użytkownika',
+    'LBL_MODIFIED_USER' => 'Użytkownik modyfikujący',
+  'LBL_CAMPAIGN_OPPORTUNITY' => 'Kampanie reklamowe',
+  'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekty',
+  'LABEL_PANEL_ASSIGNMENT' => 'Przydzielenie',
+  'LNK_IMPORT_OPPORTUNITIES' => 'Importuj szanse sprzedaży',
+  'LBL_EDITLAYOUT' => 'Edycja wygladu' /*for 508 compliance fix*/,
+  //For export labels
+    'LBL_EXPORT_CAMPAIGN_ID' => 'ID Kampanii reklamowej:',
+    'LBL_OPPORTUNITY_TYPE' => 'Typ szansy sprzedaży',
+    'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Przydzielony użytkownik',
+    'LBL_EXPORT_ASSIGNED_USER_ID' => 'Przydzielony do (ID użytkownika)',
+    'LBL_EXPORT_MODIFIED_USER_ID' => 'Zmodyfikowane przez (ID)',
+    'LBL_EXPORT_CREATED_BY' => 'Utworzony przez (ID)',
+    'LBL_EXPORT_NAME'=>'Nazwa',
 
+  // SNIP
+  'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Powiązane Kontakty \ Wiadomości e-mail',
 );
 
 ?>

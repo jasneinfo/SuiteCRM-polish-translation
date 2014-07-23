@@ -1,81 +1,62 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
-
-/*********************************************************************************
- * pl_pl.lang.php,v for SugarCRM 4.5.1->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
 $mod_strings = array (
-  'LBL_MODULE_NAME' => 'Strona główna',
-  'LBL_NEW_FORM_TITLE' => 'Nowy kontakt',
+  'LBL_MODULE_NAME' => 'Pulpit',
+  'LBL_MODULES_TO_SEARCH' => 'Moduły do wyszukiwania',
+  'LBL_NEW_FORM_TITLE' => 'Dodaj Kontakt',
   'LBL_FIRST_NAME' => 'Imię:',
-  'LBL_LAST_NAME' => 'Nazwisko:',
+  'LBL_LAST_NAME' => 'Nazwisko:', 
   'LBL_LIST_LAST_NAME' => 'Nazwisko',
   'LBL_PHONE' => 'Telefon:',
-  'LBL_EMAIL_ADDRESS' => 'Email:',
+  'LBL_EMAIL_ADDRESS' => 'Adresy e-mail:',
   'LBL_MY_PIPELINE_FORM_TITLE' => 'Moje zestawienia',
   'LBL_PIPELINE_FORM_TITLE' => 'Zestawienia etapow sprzedaży',
   'LBL_CAMPAIGN_ROI_FORM_TITLE' => 'Kampanie zwrotu z inwestycji (ROI)',
-  'LBL_MY_CLOSED_OPPORTUNITIES_GAUGE' => 'Mój wskaźnik zamkniętych tematów',
-  'LNK_NEW_CONTACT' => 'Utwórz: kontakt',
-  'LNK_NEW_ACCOUNT' => 'Klienta',
-  'LNK_NEW_OPPORTUNITY' => 'Temat',
-
-  'LNK_NEW_QUOTE' => 'Oferty',
-
-  'LNK_NEW_LEAD' => 'Wizytówkę',
-  'LNK_NEW_CASE' => 'Sprawę',
-  'LNK_NEW_NOTE' => 'Notatkę lub załącznik',
-  'LNK_NEW_CALL' => 'Rozmowy telefoniczne',
-  'LNK_NEW_EMAIL' => 'Archiwum poczty',
-  'LNK_COMPOSE_EMAIL' => 'Napisz email',
-  'LNK_NEW_MEETING' => 'Spotkania',
-  'LNK_NEW_TASK' => 'Zadanie',
-  'LNK_NEW_BUG' => 'Zgłoś błąd',
-  'LBL_ADD_BUSINESSCARD' => 'Kontakt z wizytówki',
+  'LBL_MY_CLOSED_OPPORTUNITIES_GAUGE' => 'Mój wskaźnik zamkniętych Szans Sprzedaży',
+  'LNK_NEW_CONTACT' => 'Utwórz kontakt',
+  'LNK_NEW_ACCOUNT' => 'Utwórz Kontrahenta',
+  'LNK_NEW_OPPORTUNITY' => 'Utwórz Szanse Sprzedaży',
+  'LNK_NEW_LEAD' => 'Utwórz Potencjalnego Klienta',
+  'LNK_NEW_CASE' => 'Utwórz Zgłoszenie',
+  'LNK_NEW_NOTE' => 'Dodaj notatkę',
+  'LNK_NEW_CALL' => 'Utwórz połączenie telefoniczne',
+  'LNK_NEW_EMAIL' => 'Archiwum email',
+  'LNK_COMPOSE_EMAIL' => 'Napisz wiadomość',
+  'LNK_NEW_MEETING' => 'Utwórz spotkanie',
+  'LNK_NEW_TASK' => 'Utwórz zadanie',
+  'LNK_NEW_BUG' => 'Dodaj błąd',
+  'LBL_ADD_BUSINESSCARD' => 'Wprowadź Wizytówkę',
   'ERR_ONE_CHAR' => 'Wprowadź co najmniej jedną literę, lub cyfrę, aby przeszukać ...',
-  'LBL_OPEN_TASKS' => 'Moje otwarte sprawy',
-  'LBL_SEARCH_RESULTS' => 'Wyniki szukania',
-  'LBL_SEARCH_RESULTS_IN' => 'w', 
-  'LNK_NEW_SEND_EMAIL' => 'Napisz email',
+  'LBL_OPEN_TASKS' => 'Moje otwarte Zadania',
+  'LBL_SEARCH_RESULTS' => 'Wyniki wyszukiwania',
+  'LBL_SEARCH_RESULTS_IN' => 'w',
+  'LNK_NEW_SEND_EMAIL' => 'Napisz wiadomość',
+  'LBL_NO_ACCESS' => 'Nie masz uprawnień do tego obszaru. Powiadom o tym administratora systemu CRM.',
   'LBL_NO_RESULTS_IN_MODULE' => '-- Brak wyników --',
-  'LBL_NO_RESULTS' => '<h2>Nie było wyników wyszukiwania. Przeszukaj jeszcze raz.</h2><br>',
+  'LBL_NO_RESULTS' => '<h2>Nie znaleziono wyników wyszukiwania. Wyszukaj ponownie.</h2><br>',
   'LBL_NO_RESULTS_TIPS' => '<h3>Podpowiedź:</h3><ul><li>Upewnij się, że wybrałeś odpowiednią kategorię powyżej</li><li>Określ swoje kryteria wyszukiwania.</li><li>Jeżeli nadal nie możesz otrzymać żadnych wyników, spróbuj zaawansowanego wyszukiwania w tym module.</li></ul>',
-  
-  'LBL_RELOAD_PAGE' => '<a href="javascript: window.location.reload()">Przeładuj okno</a> aby użyć tej Belki.',
-  'LBL_ADD_DASHLETS' => 'Dodaj belkę',
+
+  'LBL_RELOAD_PAGE' => '<a href="javascript: window.location.reload()">Przeładuj okno</a> aby użyć tego widgeta.',
+  'LBL_ADD_DASHLETS' => 'Dodaj widget-a',
   'LBL_ADD_PAGE' => 'Dodaj stronę',
+  'LBL_DEL_PAGE' => 'Usuń stronę',
+  'LBL_WEBSITE_TITLE' => 'Strona internetowa',
+  'LBL_RSS_TITLE' => 'Aktualności RSS',
   'LBL_DELETE_PAGE' => 'Usuń stronę',
   'LBL_CHANGE_LAYOUT' => 'Zmień wygląd',
   'LBL_RENAME_PAGE' => 'Zmień nazwę strony',
   'LBL_CLOSE_DASHLETS' => 'Zamknij',
   'LBL_CLOSE_SITEMAP' => 'Zamknij',
-  'LBL_OPTIONS' => 'Opcje', 
+  'LBL_OPTIONS' => 'Opcje',
   // dashlet search fields
   'LBL_TODAY'=>'Dziś',
   'LBL_YESTERDAY' => 'Wczoraj', 
@@ -90,76 +71,78 @@ $mod_strings = array (
   'LBL_THIS_QUARTER'=>'Ten kwartał',
   'LBL_LAST_YEAR'=>'Ostatni rok',
   'LBL_NEXT_YEAR'=>'Następny rok',
-  'LBL_THIS_MONTH' => 'Ten miesiąc',
-  'LBL_THIS_YEAR' => 'Ten rok',
   'LBL_LAST_30_DAYS' => 'Ostatnie 30 dni',
   'LBL_NEXT_30_DAYS' => 'Następne 30 dni',
   'LBL_THIS_MONTH' => 'Tego miesiąca',
-  'LBL_THIS_YEAR' => 'Tego Roku',
-  'LBL_LAST_30_DAYS' => 'Ostatnie 30 Dni',
-  'LBL_NEXT_30_DAYS' => 'Następne 30 dni',
+  'LBL_THIS_YEAR' => 'Tego roku',
+
   'LBL_MODULES' => 'Moduły',
   'LBL_CHARTS' => 'Wykresy',
   'LBL_TOOLS' => 'Narzędzia',
+  'LBL_WEB' => 'WWW',
   'LBL_SEARCH_RESULTS' => 'Wyniki wyszukiwania',
-  
+
   // Dashlet Categories
   'dashlet_categories_dom' => array(
-  'Module Views' => 'Widok modułu',
-  'Portal' => 'Portal',
-  'Charts' => 'Wykresy',
-  'Tools' => 'Narzędzia',
-  'Miscellaneous' => 'Inne'),
-  'LBL_MAX_DASHLETS_REACHED' => 'Osiągnąłeś maksymalną liczbe belek przewidzianą dla Ciebie przez administratora. Usuń belkę, aby dodać inne.',
-  'LBL_ADDING_DASHLET' => 'Dodaję belkę ...',
-  'LBL_ADDED_DASHLET' => 'Belka została dodana',
-  'LBL_REMOVE_DASHLET_CONFIRM' => 'Czy na pewno chcesz usunąć tę belkę?',
-  'LBL_REMOVING_DASHLET' => 'Usuwam belkę ...',
-  'LBL_REMOVED_DASHLET' => 'Belka została usunięta',
-  'LBL_DASHLET_CONFIGURE_GENERAL' => 'Ogólnie',
+      'Module Views' => 'Widok modułu',
+      'Portal' => 'Portal',
+      'Charts' => 'Wykresy',
+      'Tools' => 'Narzędzia',
+      'Miscellaneous' => 'Pozostałe'),
+  'LBL_MAX_DASHLETS_REACHED' => 'Osiągnąłeś maksymalną liczbę widgetów przewidzianą przez administratora. Usuń widgeta, aby dodać inne.',
+  'LBL_ADDING_DASHLET' => 'Dodaję widgeta ...',
+  'LBL_ADDED_DASHLET' => 'Widget został dodany',
+  'LBL_REMOVE_DASHLET_CONFIRM' => 'Czy na pewno chcesz usunąć tę widgeta?',
+  'LBL_REMOVING_DASHLET' => 'Usuwam widgeta ...',
+  'LBL_REMOVED_DASHLET' => 'Widget został usunięty',
+  'LBL_DASHLET_CONFIGURE_GENERAL' => 'Ogólne',
   'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filtry',
   'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Tylko moje elementy',
   'LBL_DASHLET_CONFIGURE_TITLE' => 'Tytuł',
   'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Wyświetl wiersze',
-//  'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'My Items Only',
 
-  'LBL_DASHLET_DELETE' => 'Usuń zakładkę',
-  'LBL_DASHLET_REFRESH' => 'Odśwież zakładke',
-  'LBL_DASHLET_EDIT' => 'Edytuj zakładkę', 
+  'LBL_DASHLET_DELETE' => 'Usuń widgeta',
+  'LBL_DASHLET_REFRESH' => 'Odśwież widgeta',
+  'LBL_DASHLET_EDIT' => 'Edytuj widgeta', 
 
   'LBL_TRAINING_TITLE' => 'Trening',
 
   'LBL_CREATING_NEW_PAGE' => 'Utwórz nową stronę...',
-  'LBL_NEW_PAGE_FEEDBACK' => 'Możesz utworzyć nową stornę. Możesz dodać zawartość przy pomocy opcji Dodaj zakładkę.',
+  'LBL_NEW_PAGE_FEEDBACK' => 'Możesz utworzyć nową stornę. Możesz dodać zawartość przy pomocy opcji Dodaj widgeta.',
   'LBL_DELETE_PAGE_CONFIRM' => 'Czy na pewno chcesz usunąć tę stronę?',
-  'LBL_SAVING_PAGE_TITLE' => 'Zapisuje tytuł strony..',  
+  'LBL_SAVING_PAGE_TITLE' => 'Zapisuje tytuł strony ...',  
   'LBL_RETRIEVING_PAGE' => 'Naprawiam stronę...',
-  
+
   // Default out-of-box names for tabs
   'LBL_HOME_PAGE_1_NAME' => 'Mój Sugar',
-  'LBL_HOME_PAGE_2_NAME' => 'Strona sprzedaży',
-  'LBL_HOME_PAGE_3_NAME' => 'Strona marketingu i wsparcia',
-  
+  'LBL_HOME_PAGE_2_NAME' => 'Sprzedaż',
+  'LBL_HOME_PAGE_3_NAME' => 'Serwis',
+  'LBL_HOME_PAGE_6_NAME' => 'Marketing',//bug 16510, separate the support and marketing page from each other
+  'LBL_HOME_PAGE_4_NAME' => 'Śledzenie',
   'LBL_CLOSE_SITEMAP' =>'Zamknij',
-  
+
   'LBL_SEARCH' => 'Szukaj',
-  'LBL_CLEAR' => 'Wyczyść', 
-  
+  'LBL_CLEAR' => 'Wyczyść',
+
   'LBL_BASIC_CHARTS' => 'Podstawowe wykresy',
   'LBL_REPORT_CHARTS' => 'Raporty wykresów',
-  
+
   'LBL_MY_FAVORITE_REPORT_CHARTS' => 'Moje ulubione raporty',
   'LBL_GLOBAL_REPORT_CHARTS' => 'Raporty głównego zespołu',
   'LBL_MY_TEAM_REPORT_CHARTS' => 'Raporty mojego zespołu',
   'LBL_MY_SAVED_REPORT_CHARTS' => 'Moje zapisane raporty',
-  
-  'LBL_DASHLET_SEARCH' => 'Znajdź zakładkę',
+
+  'LBL_DASHLET_SEARCH' => 'Znajdź widgeta',
 
 //ABOUT page
   'LBL_VERSION' => 'Wersja',
   'LBL_BUILD' => 'Build',
-  'LBL_VIEWLICENSE_COM' => '<P>This program is free software; you can redistribute it and/or modify it under the terms of the <a href="LICENSE.txt" target="_blank" class="body"> GNU General Public License version 3</a> as published by the Free Software Foundation including the additional permission set forth in the source code header.</P>',
-  'LBL_ADD_TERM_COM' => '<P>The interactive user interfaces in modified source and object code versions of this program must display Appropriate Legal Notices, as required under Section 5 of the GNU General Public License version 3. In accordance with Section 7(b) of the GNU General Public License version 3, these Appropriate Legal Notices must retain the display of the &quot;Powered by SugarCRM&quot; logo. If the display of the logo is not reasonably feasible for technical reasons, the Appropriate Legal Notices must display the words &quot;Powered by SugarCRM&quot;.</P>',
+
+
+  'LBL_VIEWLICENSE_COM' => '<P>Ten program jest wolnym oprogramowaniem; możesz go rozprowadzać dalej i / lub modyfikować zgodnie z warunkami <a href="LICENSE.txt" target="_blank" class="body"> GNU Affero General Public License version 3</a> opublikowanej przez Free Software Foundation, w tym dodatkowych uprawnień określonych w nagłówku kodu źródłowego.</P>',
+  'LBL_ADD_TERM_COM' => '<P>Interaktywny interfejs użytkownika w zmodyfikowanej wersji kodu źródłowego i obiekt tego programu musi posiadać odpowiednie Informacje prawne, zgodnie z wymogami 5 of the GNU Affero General Public License version 3. odpowiednie środki Informacje prawne muszą zachować wyświetlanie &quot;Powered by SugarCRM&quot; logo. Jeśli wyświetlanie logo nie jest to racjonalnie wykonalne z powodów technicznych, Zastrzeżenia Prawne musi pojawić się &quot;Powered by SugarCRM&quot;.</P>',
+
+
   'LBL_SUGAR_COMMUNITY_EDITION' => 'Sugar Community Edition',
   'LBL_SUGAR_PROFESSIONAL' => "Sugar Professional",
   'LBL_SUGAR_ENTERPRISE' => "Sugar Enterprise",
@@ -169,7 +152,6 @@ $mod_strings = array (
   'LBL_OF' => 'z',
   'LBL_FOUNDERS' => 'Fundatorzy',
   'LBL_JOIN_SUGAR_COMMUNITY' => 'Przyłącz się do Sugar Community',
-  'LBL_SUBSCRIBE_SUGARBUZZ' => 'Subskrybuj newsletter SugarBuzz',
   'LBL_DETAILS_SUGARFORGE' => 'Wspieraj i projektuj rozszerzenia Sugar',
   'LBL_DETAILS_SUGAREXCHANGE' => 'Kupuj i sprzedawaj certyfikowane rozszerzenia Sugar',
   'LBL_TRAINING' => 'Trening',
@@ -190,32 +172,75 @@ $mod_strings = array (
   'LBL_SOURCE_CODE' => 'Kod źródłowy',
   'LBL_SOURCE_SUGAR' => 'Sugar - The world\'s most popular sales force automation application created by SugarCRM Inc.',
   'LBL_SOURCE_XTEMPLATE' => 'XTemplate - A template engine for PHP created by Barnabás Debreceni',
-  'LBL_SOURCE_LOG4PHP' => 'Log4php - A PHP port of Log4j, the most popular Java logging framework, created by Ceki Gülcü',
   'LBL_SOURCE_NUSOAP' => 'NuSOAP - A set of PHP classes that allow developers to create and consume web services created by NuSphere Corporation and Dietrich Ayala',
   'LBL_SOURCE_JSCALENDAR' => 'JS Calendar - A calendar for entering dates created by Mihai Bazon',
   'LBL_SOURCE_PHPPDF' => 'PHP PDF - A library for creating PDF documents created by Wayne Munro',
-  'LBL_SOURCE_DOMIT' => 'DOMIT! - An xml parser for PHP based on the Document Object Model (DOM) Level 2 Spec.',
-  'LBL_SOURCE_DOMITRSS' => 'DOMIT RSS - An RSS feed parser based on the DOMIT pure PHP XML parser.',
-  'LBL_SOURCE_PNGBEHAVIOR' => 'PNG Behavior - Adds support for PNG graphic format to Internet Explorer.',
-  'LBL_SOURCE_JSONPHP' => 'JSON.php - A PHP script to convert to and from JSON data format by Michal Migurski.',
-  'LBL_SOURCE_JSON' => 'JSON.js - A JSON parser and JSON stringifier in JavaScript.',
   'LBL_SOURCE_HTTP_WEBDAV_SERVER' => 'HTTP_WebDAV_Server - A WebDAV Server Implementation in PHP.',
-  'LBL_SOURCE_JS_O_LAIT' => 'JavaScript O Lait - A library of reusable modules and components to enhance JavaScript by Jan-Klaas Kollhof.',
   'LBL_SOURCE_PCLZIP' => 'PclZip - library offers compression and extraction functions for Zip formatted archives by Vincent Blavet',
   'LBL_SOURCE_SMARTY' => 'Smarty - A template engine for PHP.',
-  'LBL_SOURCE_OVERLIBMWS' => 'Overlibmws - JavaScript library for client-side windowing.',
-  'LBL_SOURCE_WICK' => 'WICK: Web Input Completion Kit - JavaScript type ahead control',
   'LBL_SOURCE_YAHOO_UI_LIB' => 'Yahoo! User Interface Library - The UI Library Utilities facilitate the implementation of rich client-side features.',
   'LBL_SOURCE_PHPMAILER' => 'PHPMailer - A full featured email transfer class for PHP',
+  'LBL_SOURCE_JSHRINK' => 'JShrink - A Javascript minifier written in PHP',
   'LBL_SOURCE_CRYPT_BLOWFISH' => 'Crypt_Blowfish - Allows for quick two-way blowfish encryption without requiring the MCrypt PHP extension.',
-  'LBL_SOURCE_PHP_COMPAT' => 'PHP_Compat - Provides missing functionality for older versions of PHP.',
-  'LBL_SOURCE_HTML_SAFE' => 'HTML_Safe - A parser that strips down all potentially dangerous content within HTML',
   'LBL_SOURCE_XML_HTMLSAX3' => 'XML_HTMLSax3 - A SAX parser for HTML and other badly formed XML documents',
   'LBL_SOURCE_YAHOO_UI_LIB_EXT' => 'Yahoo! UI Extensions Library - Extensions to the Yahoo! User Interface Library by Jack Slocum',
-  'LBL_SOURCE_JSMIN' => 'JSMin - filter which removes comments and unnecessary whitespace from JavaScript files.',
   'LBL_SOURCE_SWFOBJECT' => 'SWFObject - Javascript Flash Player detection and embed script.',
   'LBL_SOURCE_TINYMCE' => 'TinyMCE - A WYSIWYG editor control for web browsers that enables the user to edit HTML contents',
   'LBL_SOURCE_EXT' => 'Ext - A client-side JavaScript framework for building web applications.',
+  'LBL_SOURCE_RECAPTCHA' => 'reCAPTCHA - A free CAPTCHA service that helps to digitize books, newspapers and old time radio shows.',
+  'LBL_SOURCE_TCPDF' => 'TCPDF - A PHP class for generating PDF documents.',
+  'LBL_SOURCE_CSSMIN' => 'CssMin - A css parser and minifier.',
+  'LBL_SOURCE_PHPSAML' => 'PHP-SAML - A simple SAML toolkit for PHP.',
+  'LBL_SOURCE_ISCROLL' => 'iScroll - The overflow:scroll for mobile webkit.  Native scrolling inside a fixed width/height element.',
+  'LBL_SOURCE_FLASHCANVAS' => 'FlashCanvas - FlashCanvas is a JavaScript library which adds the HTML5 Canvas support to Internet Explorer. It renders shapes and images via Flash drawing API. It supports almost all Canvas APIs and, in many cases, runs faster than other similar libraries which use VML or Silverlight.',
+  'LBL_SOURCE_JIT' => 'JavaScript InfoVis Toolkit - The JavaScript InfoVis Toolkit provides tools for creating Interactive Data Visualizations for the Web.',
+  'LBL_SOURCE_ZEND' => 'Zend Framework - An open source, object oriented web application framework for PHP5.',
+  'LBL_SOURCE_PARSECSV' => 'parseCSV - CSV data parser for PHP',
+  'LBL_SOURCE_PHPJS' => 'php.js - Use PHP functions in JavaScript',
+  'LBL_SOURCE_PHPSQL' => 'PHP SQL Parser',
+  'LBL_SOURCE_HTMLPURIFIER' => 'HTML Purifier - A standards-compliant HTML filtering library.',
+  'LBL_SOURCE_XHPROF' => 'XHProf - Funkcja-poziom hierarchiczny profilowania dla PHP.',
+
+  'LBL_DASHLET_TITLE' => 'Mój Portal',
+  'LBL_DASHLET_OPT_TITLE' => 'Tytuł',
+  'LBL_DASHLET_OPT_URL' => 'Adres strony WWW',
+  'LBL_DASHLET_OPT_HEIGHT' => 'wysokość widgeta (w pikselach)',
+  'LBL_DASHLET_SUGAR_NEWS' => 'Nowości Sugar',
+  'LBL_DASHLET_DISCOVER_SUGAR_PRO' => 'Odkryj Sugar',
+	'LBL_POWERED_BY_SUGAR' => 'Powered By SugarCRM' /*for 508 compliance fix*/,
+	'LBL_MORE_DETAIL' => 'Więcej szczegółów' /*for 508 compliance fix*/,
+	'LBL_BASIC_SEARCH' => 'Wyszukiwanie podstawowe' /*for 508 compliance fix*/,
+	'LBL_ADVANCED_SEARCH' => 'Wyszukiwanie zaawansowane' /*for 508 compliance fix*/,
+    'LBL_TOUR_HOME' => 'Ikona Strony głównej',
+    'LBL_TOUR_HOME_DESCRIPTION' => 'Szybki powrót do pulpitu jednym kliknięciem.',
+    'LBL_TOUR_MODULES' => 'Moduły',
+    'LBL_TOUR_MODULES_DESCRIPTION' => 'Wszystkie ważne moduły są tutaj.',
+    'LBL_TOUR_MORE' => 'Moduły dodatkowe',
+    'LBL_TOUR_MORE_DESCRIPTION' => 'Pozostałe moduły są tutaj.',
+    'LBL_TOUR_SEARCH' => 'Wyszukiwanie pełnotekstowe',
+    'LBL_TOUR_SEARCH_DESCRIPTION' => 'Wyszukiwanie stało się dużo lepsze',
+    'LBL_TOUR_NOTIFICATIONS' => 'Powiadomienia',
+    'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'Powiadomienia aplikacja Sugar.',
+    'LBL_TOUR_PROFILE' => 'Profile',
+    'LBL_TOUR_PROFILE_DESCRIPTION' => 'Profile dostępu, ustawienia i wylogowania.',
+    'LBL_TOUR_QUICKCREATE' => 'Szybkie tworzenie',
+    'LBL_TOUR_QUICKCREATE_DESCRIPTION' => 'Szybkie tworzenie rekordów bez konieczności przeładowania strony.',
+    'LBL_TOUR_FOOTER' => 'Praktyczny składany stopki',
+    'LBL_TOUR_FOOTER_DESCRIPTION' => 'Łatwość rozwijania i zwijania stopki.',
+    'LBL_TOUR_CUSTOM' => 'Aplikacje niestandardowe',
+    'LBL_TOUR_CUSTOM_DESCRIPTION' => 'Niestandardowe integracje.',
+    'LBL_TOUR_BRAND' => 'Twoje logo',
+    'LBL_TOUR_BRAND_DESCRIPTION' => 'Twoje własne logo.',
+    'LBL_TOUR_WELCOME' => 'Witamy w Sugar',
+    'LBL_TOUR_WATCH' => 'Oglądaj co nowego w Sugar',
+    'LBL_TOUR_FEATURES' => '<ul style=""><li class="icon-ok">Nowy uproszczony pasek nawigacyjny</li><li class="icon-ok">Nowe praktyczna stopka</li><li class="icon-ok">Ulepszone wyszukiwanie</li><li class="icon-ok">Zaktualizowane działań w menu</li></ul><p>oraz wiele innych!</p>',
+    'LBL_TOUR_VISIT' => 'Aby uzyskać więcej informacji prosimy odwiedzić naszą aplikację',
+    'LBL_TOUR_DONE' => 'Gotowe!',
+    'LBL_TOUR_REFERENCE_1' => 'You can always reference our',
+    'LBL_TOUR_REFERENCE_2' => 'through the "Support" link under the profile tab.',
+    'LNK_TOUR_DOCUMENTATION' => 'dokumentacja',
+    'LBL_TOUR_CALENDAR_URL_1' => 'Czy udostępniasz kalendarz aplikacji takim jak Microsoft Outlook lub Exchange? Jeśli tak, to mamy nowy bezpieczniejszy adres URL.',
+    'LBL_TOUR_CALENDAR_URL_2' => 'Pobieranie nowego adresu URL udostępniającego kalendarz.',
 
 );
 

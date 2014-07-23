@@ -1,73 +1,50 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Professional End User
- * License Agreement ("License") which can be viewed at
- * http://www.sugarcrm.com/crm/products/sugar-professional-eula.html
- * By installing or using this file, You have unconditionally agreed to the
- * terms and conditions of the License, and You may not use this file except in
- * compliance with the License.  Under the terms of the license, You shall not,
- * among other things: 1) sublicense, resell, rent, lease, redistribute, assign
- * or otherwise transfer Your rights to the Software, and 2) use the Software
- * for timesharing or service bureau purposes such as hosting the Software for
- * commercial gain and/or for the benefit of a third party.  Use of the Software
- * may be subject to applicable fees and any use of the Software without first
- * paying applicable fees is strictly prohibited.  You do not have the right to
- * remove SugarCRM copyrights from the source code or user interface.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *  (i) the "Powered by SugarCRM" logo and
- *  (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * Your Warranty, Limitations of liability and Indemnity are expressly stated
- * in the License.  Please refer to the License for the specific language
- * governing these rights and limitations under the License.  Portions created
- * by SugarCRM are Copyright (C) 2004-2006 SugarCRM, Inc.; All Rights Reserved.
- ********************************************************************************/
-/*********************************************************************************
- * Description:  Defines the English language pack for the base application.
- * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
- * All Rights Reserved.
- * Contributor(s): ______________________________________..
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
 $mod_strings = array (
-  'LBL_MODULE_NAME' => 'Scalaj rekordy',
-  'LBL_MODULE_TITLE' => 'Scalanie Rekordów: Strona główna',
-  'LBL_SEARCH_FORM_TITLE' => 'Szukaj scalonych',
-  'LBL_LIST_FORM_TITLE' => 'Lista scalonych',
+  'LBL_MODULE_NAME' => 'Duplikaty',
+  'LBL_MODULE_TITLE' => 'Duplikaty: Strona główna',
+  'LBL_SEARCH_FORM_TITLE' => 'Szukaj duplikatów',
+  'LBL_LIST_FORM_TITLE' => 'Lista duplikatów',
 
-  'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Krok 1: Znajdź rekordy przeznaczone do scalenia ze sobą',
+  'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Znajdź rekordy, żeby je scalić',
   'LBL_AVAIL_FIELDS' => 'Dostępne pola',
-  'LBL_FILTER_COND' => 'Warunki filtrowania',
-  'LBL_SELECTED_FIELDS' => 'Wybrane pola',
-  'LBL_MERGE_RECORDS_WITH' => 'Scal rekordy',
-  'LBL_MERGE_VALUE_OVER' => 'Scal wartości',
+  'LBL_FILTER_COND' => 'Konfiguracja filtru',
+  'LBL_SELECTED_FIELDS' => 'Zaznaczone pola',
+  'LBL_MERGE_RECORDS_WITH' => 'Powiąż rekord z',
+  'LBL_MERGE_VALUE_OVER' => 'Scalanie wartości właściciela',
 
-  'LBL_NEXT_STEP_TITLE' => 'Przejdź do nastepnego kroku[Ctrl+N]',
+  'LBL_NEXT_STEP_TITLE' => 'Przejdź do następnego kroku [Ctrl+N]',
   'LBL_NEXT_STEP_BUTTON_KEY' => 'N',
-  'LBL_NEXT_STEP_BUTTON_LABEL' => 'Nastepny krok >',
+  'LBL_NEXT_STEP_BUTTON_LABEL' => 'Następny krok >',
 
-  'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Przeprowadź scalanie[Ctrl+P]',
+  'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Wykonaj scalanie[Ctrl+P]',
   'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-  'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Przeprowadź scalanie',
+  'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Wykonaj scalanie',
 
-  'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Zapisz scalone rekordy[Ctrl+S]',
+  'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Zapisz scalanie[Ctrl+S]',
   'LBL_SAVE_MERGED_RECORD_BUTTON_KEY' => 'S',
-  'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Zapisz scalone',
+  'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Zapisz scalanie',
 
-  'LBL_STEP2_FORM_TITLE' => 'Rekordy przeznaczone do scalenia ze sobą:',
-  'LBL_SELECT_ERROR'=>'Musisz dokonać wyboru przed kontynuacją.',
-  'LBL_SELECT_PRIMARY'=>'Wybierz główny rekord do połączenia',
+  'LBL_STEP2_FORM_TITLE' => 'Znalezione rekordy scal z',
+  'LBL_SELECT_ERROR'=>'Musisz dokonać wyboru, za nim przejdziesz do scalania.',
+  'LBL_SELECT_PRIMARY'=>'Zaznacz rekord głównym przed rozpoczęciem scalania.',
   'LBL_CHANGE_PARENT'=>'Ustaw jako główny',
   'LBL_REMOVE_FROM_MERGE'=>'Usuń',
-  'LBL_DIFF_COL_VALUES'=>'Kolumny, które są porównywane w głównym wierszu różnią sie od przyłączanych wierszy:',
-  'LBL_SAME_COL_VALUES'=>'Kolumny, które mają tę samą zawartość we wszystkich wierszach:',
-  'ERR_EXCEEDS_MAX'=>'Możesz połączyć maksymalnie 5 rekordów. Wiersze powyżej tego limitu nie zostaną połączone.',
-  'LBL_DELETE_MESSAGE'=>'To działanie spowoduje usunięcie następujących rekordów:',
-  'LBL_PROCEED'=>'Kontynuować?',
+  'LBL_DIFF_COL_VALUES'=>'Kolumny, których wartość w podstawowym wierszu różni się od wartości w scalanym wierszu:',
+  'LBL_SAME_COL_VALUES'=>'Kolumny, których wartość jest podobna we wszystkich wierszach:',
+  'ERR_EXCEEDS_MAX'=>'Możesz powiązać ze sobą maksymalnie 5 rekordów, rekordy przekraczające limit są ignorowane.',
+  'LBL_DELETE_MESSAGE'=>'Ta akcja usunie następujące rekordy:',
+  'LBL_PROCEED'=>'Postęp ?',
+  'LBL_STEP1_DIRECTIONS' => 'Znajdź duplikaty. Jeżeli było to możliwe, to zostały znalezione duplikaty i można je scalić.',
 );
 
 

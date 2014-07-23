@@ -1,66 +1,49 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
-
-/*********************************************************************************
- * pl_pl.lang.ext.php,v for SugarCRM 4.5 -->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>mojsklepik<dot>net
- * Contributor(s): ______________________________________..
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
 $mod_strings = array (
-'LBL_MODULE_NAME' => 'Waluty',
-  'LBL_LIST_FORM_TITLE' => 'Waluty',
-  'LBL_CURRENCY' => 'Dodaj walutę',
+  'LBL_MODULE_NAME' => 'Waluty',
+  'LBL_LIST_FORM_TITLE' => 'Lista walut',
+  'LBL_CURRENCY' => 'Waluta',
   'LBL_ADD' => 'Dodaj',
-  'LBL_MERGE' => 'Scal',
-  'LBL_MERGE_TXT' => 'Zaznacz waluty, które chcesz przeliczać do obecnej waluty. Spodowuje to odłaczenie, a następnie przeliczenie walut według nowego przelicznika.',
+  'LBL_MERGE' => 'Połącz',
+  'LBL_MERGE_TXT' => 'Proszę wybrać walutę, które chcesz zamapować do wybranej waluty. Spowoduje to usunięcie wszystkich walut zaznaczonych i przypisanych do nich wartości.',
   'LBL_US_DOLLAR' => 'U.S. Dollar',
   'LBL_DELETE' => 'Usuń',
   'LBL_LIST_SYMBOL' => 'Symbol waluty',
   'LBL_LIST_NAME' => 'Nazwa waluty',
-  'LBL_LIST_ISO4217' => 'Kod ISO 4217',
-  'LBL_UPDATE' => 'Uaktualnij',
-  'LBL_LIST_RATE' => 'Wspólczynnik wymiany',
-  'LBL_LIST_RATE_HELP' => 'Współczynnik wymiany dla 0,5 dla Euro znaczy, że 10 USD = 5 Euro.',
+  'LBL_LIST_ISO4217' => 'Trzy literowa nazwa waluty [ISO 4217]',
+  'LBL_LIST_ISO4217_HELP' => 'Trzy literowa nazwa waluty zgodna z międzynarodową normą ISO 4217.',
+  'LBL_UPDATE' => 'Aktualizuj',
+  'LBL_LIST_RATE' => 'Przelicznik waluty',
+  'LBL_LIST_RATE_HELP' => 'Przelicznik określa przeliczanie waluty względem waluty głównej.',
   'LBL_LIST_STATUS' => 'Status',
   'LNK_NEW_CONTACT' => 'Nowy kontakt',
-  'LNK_NEW_ACCOUNT' => 'Nowy klient',
-  'LNK_NEW_OPPORTUNITY' => 'Nowy temat',
-  'LNK_NEW_CASE' => 'Nowe zdarzenie',
-  'LNK_NEW_NOTE' => 'Utwórz notatkę lub załącznik',
-  'LNK_NEW_CALL' => 'Nowa rozmowa telefoniczna',
-  'LNK_NEW_EMAIL' => 'Nowy email',
+  'LNK_NEW_ACCOUNT' => 'Utwórz Kontrahenta',
+  'LNK_NEW_OPPORTUNITY' => 'Utwórz Szanse Sprzedaży',
+  'LNK_NEW_CASE' => 'Utwórz Zgłoszenie',
+  'LNK_NEW_NOTE' => 'Utwórz notatkę',
+  'LNK_NEW_CALL' => 'Utwórz połączenie telefoniczne',
+  'LNK_NEW_EMAIL' => 'Nowy mail',
   'LNK_NEW_MEETING' => 'Nowe spotkanie',
-  'LNK_NEW_TASK' => 'Utwórz zadania',
-  'NTC_DELETE_CONFIRMATION' => 'Czy na pewno chcesz usunąć ten rekord? Lepiej byłoby ustawić jego status jako nieaktywny. Inaczej wszyskie rekordy używające tej waluty zostaną przekonwertowane do Dolarów Amerykańskich.',
+  'LNK_NEW_TASK' => 'Nowe zadanie',
+  'NTC_DELETE_CONFIRMATION' => 'Czy jesteś pewien, że chcesz usunąć ten rekord? Usunięcie waluty spowoduje przepięcie w całym systemie rekordów z tą walutą na walutę podstawową. Może lepszym rozwiązaniem jest wyłączenie waluty (zmień status na Nieaktywna).',
+  'LBL_BELOW_MIN' => 'Współczynnik konwersji musi być większy niż 0',
   'currency_status_dom' => 
   array (
-    'Active' => 'Aktywny',
-    'Inactive' => 'Nieaktywny',
+    'Active' => 'Aktywna',
+    'Inactive' => 'Nieaktywna',
   ),
+  'LBL_CREATED_BY' => 'Utworzony przez',
+	'LBL_EDIT_LAYOUT' => 'Edytuj szablon' /*for 508 compliance fix*/,
 );
 
 

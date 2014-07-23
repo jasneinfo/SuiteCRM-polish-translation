@@ -1,63 +1,30 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Enterprise Subscription
- * Agreement ("License") which can be viewed at
- * http://www.sugarcrm.com/crm/products/sugar-enterprise-eula.html
- * By installing or using this file, You have unconditionally agreed to the
- * terms and conditions of the License, and You may not use this file except in
- * compliance with the License.  Under the terms of the license, You shall not,
- * among other things: 1) sublicense, resell, rent, lease, redistribute, assign
- * or otherwise transfer Your rights to the Software, and 2) use the Software
- * for timesharing or service bureau purposes such as hosting the Software for
- * commercial gain and/or for the benefit of a third party.  Use of the Software
- * may be subject to applicable fees and any use of the Software without first
- * paying applicable fees is strictly prohibited.  You do not have the right to
- * remove SugarCRM copyrights from the source code or user interface.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *  (i) the "Powered by SugarCRM" logo and
- *  (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * Your Warranty, Limitations of liability and Indemnity are expressly stated
- * in the License.  Please refer to the License for the specific language
- * governing these rights and limitations under the License.  Portions created
- * by SugarCRM are Copyright (C) 2004-2008 SugarCRM, Inc.; All Rights Reserved.
- ********************************************************************************/
-/*********************************************************************************
- * $Id$
- * Description:  Defines the English language pack for the base application.
- * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
- * All Rights Reserved.
-/*********************************************************************************
- * pl_pl.lang.ext.php,v for SugarCRM 4.5.1->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
-
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
+ 
  $mod_strings = array (
   'LBL_MODULE_NAME' => 'Sprzedaż',
   'LBL_MODULE_TITLE' => 'Sprzedaż: Strona główna',
-  'LBL_SEARCH_FORM_TITLE' => 'Wyszukiwanie w sprzedaży',
-  'LBL_VIEW_FORM_TITLE' => 'Widok sprzedaży',
+  'LBL_SEARCH_FORM_TITLE' => 'Wyszukiwanie sprzedaży',
+  'LBL_VIEW_FORM_TITLE' => 'Podgląd sprzedaży',
   'LBL_LIST_FORM_TITLE' => 'Lista sprzedaży',
   'LBL_SALE_NAME' => 'Nazwa sprzedaży:',
   'LBL_SALE' => 'Sprzedaż:',
-  'LBL_NAME' =>  'Nazwa sprzedaży:',
+  'LBL_NAME' => 'Nazwa sprzedaży',
   'LBL_LIST_SALE_NAME' => 'Nazwa',
-  'LBL_LIST_ACCOUNT_NAME' => 'Nazwa klienta',
+  'LBL_LIST_ACCOUNT_NAME' => 'Nazwa kontrahenta',
   'LBL_LIST_AMOUNT' => 'Kwota',
-  'LBL_LIST_DATE_CLOSED' => 'Zamknięty',
+  'LBL_LIST_DATE_CLOSED' => 'Zamknij',
   'LBL_LIST_SALE_STAGE' => 'Etap sprzedaży',
-  'LBL_ACCOUNT_ID'=>'ID Klienta',
+  'LBL_ACCOUNT_ID'=>'ID Kontrahenta',
    'LBL_CURRENCY_ID'=>'ID Waluty',
-
-  'LBL_TEAM_ID' =>'ID Zespołu',
-
 //DON'T CONVERT THESE THEY ARE MAPPINGS
   'db_sales_stage' => 'LBL_LIST_SALES_STAGE',
   'db_name' => 'LBL_NAME',
@@ -65,69 +32,76 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   'db_date_closed' => 'LBL_LIST_DATE_CLOSED',
 //END DON'T CONVERT
   'UPDATE' => 'Sprzedaż - aktualizacja waluty',
-  'UPDATE_DOLLARAMOUNTS' => 'Aktualizacja kwoty w Dolarach amerykańskich',
-  'UPDATE_VERIFY' => 'Zweryfikuj kwoty',
-  'UPDATE_VERIFY_TXT' => 'Sprawdza, czy wartości kwot w module sprzedaży są wyrażeniami dziesiętnymi, złożonymi wyłącznie ze znaków numerycznych (0-9) i dziesiętnych(.)',
-  'UPDATE_FIX' => 'Popraw kwotowania',
-  'UPDATE_FIX_TXT' => 'Przeprowadza próbę naprawy niewłaściwych kwot przez stworzenie prawidłowych wyrażeń dziesiętnych. Każda modyfikacja kwoty jest zachowana w bazie, w polu amount_backup. Jeśli wykonasz tę operację i pojawi się błąd, nie uruchamiaj jej ponownie, zanim nie zostaną przywrócone poprzednie wartości. Inaczej można spowodować nadpisanie danych błędnymi wartościami.',
-  'UPDATE_DOLLARAMOUNTS_TXT' => 'Uaktualnia kwoty w dolarach amerykańskich dla sprzedaży, na podstawie ustawionych obecnie kursów waluty. Ta wartość jest używana do wykreślania wykresow i Widoku listy kwot waluty.',
-  'UPDATE_CREATE_CURRENCY' => 'Tworzę nową walutę:',
-  'UPDATE_VERIFY_FAIL' => 'Rekord nie przeszedł weryfikacji:',
-  'UPDATE_VERIFY_CURAMOUNT' => 'Bieżąca kwota:',
+  'UPDATE_DOLLARAMOUNTS' => 'Aktualizacja kwoty US Dollar',
+  'UPDATE_VERIFY' => 'Weryfikuj kwotę',
+  'UPDATE_VERIFY_TXT' => 'Weryfikuje czy wartości kwot w module sprzedaży są wyrażeniami dziesiętnymi, złożonymi wyłącznie ze znaków numerycznych (0-9) i dziesiętnych(.)',
+  'UPDATE_FIX' => 'Napraw kwotę',
+  'UPDATE_FIX_TXT' => 'Przeprowadza próbę naprawy niewłaściwych kwot przez utworzenie prawidłowych wyrażeń dziesiętnych. Każda modyfikacja kwoty jest zachowana w bazie danych, w polu amount_backup. Jeśli wykonasz tę operację i pojawi się błąd, nie uruchamiaj jej ponownie, zanim nie zostaną przywrócone poprzednie wartości, inaczej można spowodować nadpisanie danych błędnymi wartościami.',
+  'UPDATE_DOLLARAMOUNTS_TXT' => 'Uaktualnia kwoty bazowej dla sprzedaży na podstawie ustawionych obecnie kursów waluty. Ta wartość jest używana do tworzenia wykresow i Widoku listy kwot waluty.',
+  'UPDATE_CREATE_CURRENCY' => 'Tworzenie nowej waluty:',
+  'UPDATE_VERIFY_FAIL' => 'Weryfikacja rekordu nie powiodła się:',
+  'UPDATE_VERIFY_CURAMOUNT' => 'Aktualna kwota:',
   'UPDATE_VERIFY_FIX' => 'Wykonanie naprawy powinno dać',
-  'UPDATE_INCLUDE_CLOSE' => 'Również zamknięte rekordy',
-  'UPDATE_VERIFY_NEWAMOUNT' => 'Nowa kwota:',
+  'UPDATE_INCLUDE_CLOSE' => 'Weź pod uwagę zamknięte rekordy',
+  'UPDATE_VERIFY_NEWAMOUNT' => 'Nowy kwota:',
   'UPDATE_VERIFY_NEWCURRENCY' => 'Nowa waluta:',
   'UPDATE_DONE' => 'Wykonano',
-  'UPDATE_BUG_COUNT' => 'Znaleziono błąd i podjęto próbę naprawy:',
-  'UPDATE_BUGFOUND_COUNT' => 'Znaleziono błąd:',
-  'UPDATE_COUNT' => 'Zaktualizowane rekordy:',
-  'UPDATE_RESTORE_COUNT' => 'Przywrócono kwoty rekordów:',
-  'UPDATE_RESTORE' => 'Przywróć kwoty',
-  'UPDATE_RESTORE_TXT' => 'Przywróć wartości kwot z backupu podczas naprawy.',
-  'UPDATE_FAIL' => 'Nie można zaktualizować - ',
-  'UPDATE_NULL_VALUE' => 'Jeśli kwota ma równać się 0, ustaw  NULL -',
+  'UPDATE_BUG_COUNT' => 'Znaleziono błąd, trwa próba naprawienia:',
+  'UPDATE_BUGFOUND_COUNT' => 'Znalezione błędy:',
+  'UPDATE_COUNT' => 'Rekordy zaktualizowane:',
+  'UPDATE_RESTORE_COUNT' => 'Przywrócono kwoty:',
+  'UPDATE_RESTORE' => 'Odzyskiwanie kwoty',
+  'UPDATE_RESTORE_TXT' => 'Odzyskiwanie wartości kwoty z kopii bezpieczeństwa.',
+  'UPDATE_FAIL' => 'Nie mogę zaktualizować - ',
+  'UPDATE_NULL_VALUE' => 'Kwota ma wartość NULL. Ustawiam na 0 -',
   'UPDATE_MERGE' => 'Połącz waluty',
   'UPDATE_MERGE_TXT' => 'Łączenie różnych walut w jedną. Jeśli istnieją rózne rekordy dla tej samej waluty, możesz połączyć je razem. To spowoduje również połączenie tych walut w innych modułach.',
-  'LBL_ACCOUNT_NAME' => 'Nazwa klienta:',
+  'LBL_ACCOUNT_NAME' => 'Nazwa Kontrahenta:',
   'LBL_AMOUNT' => 'Kwota:',
-  'LBL_AMOUNT_USDOLLAR' => 'Kwota w USD:',
+  'LBL_AMOUNT_USDOLLAR' => 'Kwota w PLN:',
   'LBL_CURRENCY' => 'Waluta:',
-  'LBL_DATE_CLOSED' => 'Spodziewana data zakończenia:',
+  'LBL_DATE_CLOSED' => 'Oczekiwana data zakończenia:',
   'LBL_TYPE' => 'Typ:',
-  'LBL_CAMPAIGN' => 'Kampania:',
+  'LBL_CAMPAIGN' => 'Kampania reklamowa:',
+  'LBL_LEADS_SUBPANEL_TITLE' => 'Potencjalni Klienci',
+  'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekty',  
   'LBL_NEXT_STEP' => 'Następny krok:',
-  'LBL_LEAD_SOURCE' => 'Źródła kontaktu:',
+  'LBL_LEAD_SOURCE' => 'Źródło pozyskania:',
   'LBL_SALES_STAGE' => 'Etap sprzedaży:',
-  'LBL_PROBABILITY' => 'Prawdopodobieństwo (%):',
+  'LBL_PROBABILITY' => 'Szansa sukcesu(%):',
   'LBL_DESCRIPTION' => 'Opis:',
-  'LBL_DUPLICATE' => 'Możliwość duplikacji sprzedaży',
-  'MSG_DUPLICATE' => 'Rekordy sprzedaży, które zamierzasz utworzyć mogą spowodować duplikację rekordów, które już istnieją. Rekordy sprzedaży, które zawierają podobne nazwy są wymienione poniżej.<br>kliknij Zachowaj, aby kontynuować tworzenie tej sprzedaży, lub klinij Skasuj, aby powrócić do modułu bez tworzenia sprzedaży.',
+  'LBL_DUPLICATE' => 'Znaleziono rekord o podobnych danych',
+  'MSG_DUPLICATE' => 'Rekord sprzedaży o podobnych dany już istnieje w systemie. Lista z podobnymi danymi znajduje się poniżej.<br>Kliknij przycisk Zapisz, aby kontynuować tworzenie, lub przycisk Anuluj lub przycisk Anuluj aby przerwać tworzenie.',
   'LBL_NEW_FORM_TITLE' => 'Utwórz nową sprzedaż',
-  'LNK_NEW_SALE' => 'Utwórz sprzedaż',
+  'LNK_NEW_SALE' => 'Utwórz nową sprzedaż',
   'LNK_SALE_LIST' => 'Sprzedaż',
-  'ERR_DELETE_RECORD' => 'Musi być określony numer rekordu, aby usunąć tę sprzedaż.',
+  'ERR_DELETE_RECORD' => 'Aby usunąć sprzedaż musisz określić numer rekordu.',
   'LBL_TOP_SALES' => 'Moje najlepsze otwarte sprzedaże',
-  'NTC_REMOVE_OPP_CONFIRMATION' => 'Czy na pewno chcesz usunąć ten kontakt ze sprzedaży?',
+  'NTC_REMOVE_OPP_CONFIRMATION' => 'Czy na pewno usunąć osoby Kontaktowe z tej szansy sprzedaży?',
 	'SALE_REMOVE_PROJECT_CONFIRM' => 'Czy na pewno chcesz usunąć tę sprzedaż z projektu?',
 	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Sprzedaż',
-	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Działania',
+	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Wydarzenia',
 	'LBL_HISTORY_SUBPANEL_TITLE'=>'Historia',
     'LBL_RAW_AMOUNT'=>'Wstępna Kwota',
 
-    'LBL_LEADS_SUBPANEL_TITLE' => 'Wizytówki',
+
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakty',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekty',
-	'LBL_ASSIGNED_TO_NAME' => 'Przydzielone do:',
-	'LBL_LIST_ASSIGNED_TO_NAME' => 'Użytkownik przydzielony',
+	'LBL_ASSIGNED_TO_NAME' => 'Użytkownik:',
+	'LBL_LIST_ASSIGNED_TO_NAME' => 'Przydzielony użytkownik',
   'LBL_MY_CLOSED_SALES' => 'Moje zamknięte sprzedaże',
-  'LBL_TOTAL_SALES' => 'Wszystkie Sprzedaże',
-  'LBL_CLOSED_WON_SALES' => 'Sprzedaże zakończone wygraną',
-  'LBL_ASSIGNED_TO_ID' =>'Przydzielone do (ID)',
-  'LBL_CREATED_ID'=>'Stworzone przez (ID)',
-  'LBL_MODIFIED_ID'=>'Zmodyfikowane (ID)',
-  'LBL_MODIFIED_NAME'=>'Nazwa użytkownika modyfikującego',
+  'LBL_TOTAL_SALES' => 'Wszystkie sprzedaże',
+  'LBL_CLOSED_WON_SALES' => 'Wygrane szanse sprzedaży',
+  'LBL_ASSIGNED_TO_ID' =>'Przydzielony do (ID użytkownika)',
+  'LBL_CREATED_ID'=>'Utworzony przez (ID)',
+  'LBL_MODIFIED_ID'=>'Zmodyfikowane przez (ID)',
+  'LBL_MODIFIED_NAME'=>'Zmodyfikowane przez użytkownika',
   'LBL_SALE_INFORMATION'=>'Informacje o sprzedaży',
+  'LBL_CURRENCY_ID'=>'ID Waluty',
+  'LBL_CURRENCY_NAME'=>'Nazwa Waluty',
+  'LBL_CURRENCY_SYMBOL'=>'Symbol Waluty',
+  'LBL_EDIT_BUTTON' => 'Edytuj',
+   'LBL_REMOVE' => 'Usuń',
+
 
 );
 

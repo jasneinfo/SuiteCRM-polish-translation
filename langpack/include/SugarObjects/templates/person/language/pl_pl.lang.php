@@ -1,68 +1,64 @@
 <?php
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Enterprise Subscription
- * Agreement ("License") which can be viewed at
- * http://www.sugarcrm.com/crm/products/sugar-enterprise-eula.html
- * By installing or using this file, You have unconditionally agreed to the
- * terms and conditions of the License, and You may not use this file except in
- * compliance with the License.  Under the terms of the license, You shall not,
- * among other things: 1) sublicense, resell, rent, lease, redistribute, assign
- * or otherwise transfer Your rights to the Software, and 2) use the Software
- * for timesharing or service bureau purposes such as hosting the Software for
- * commercial gain and/or for the benefit of a third party.  Use of the Software
- * may be subject to applicable fees and any use of the Software without first
- * paying applicable fees is strictly prohibited.  You do not have the right to
- * remove SugarCRM copyrights from the source code or user interface.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *  (i) the "Powered by SugarCRM" logo and
- *  (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * Your Warranty, Limitations of liability and Indemnity are expressly stated
- * in the License.  Please refer to the License for the specific language
- * governing these rights and limitations under the License.  Portions created
- * by SugarCRM are Copyright (C) 2004-2007 SugarCRM, Inc.; All Rights Reserved.
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
+
 $mod_strings = array(
-'LBL_SALUTATION'=>'Pozdrowienie',
+'LBL_SALUTATION'=>'Forma grzecznościowa',
 'LBL_NAME'=>'Nazwa',
 'LBL_FIRST_NAME'=>'Imię',
 'LBL_LAST_NAME'=>'Nazwisko', 
 'LBL_TITLE'=>'Tytuł',
-'LBL_DEPARTMENT'=>'Departament',
-'LBL_DO_NOT_CALL'=>'Nie dzownić',
-'LBL_HOME_PHONE'=>'Telefon domowy',
-'LBL_MOBILE_PHONE'=>'Tel. kom.',
-'LBL_OFFICE_PHONE'=>'Tel. praca',
-'LBL_OTHER_PHONE'=>'Inny tel.',
+'LBL_DEPARTMENT'=>'Dział',
+'LBL_DO_NOT_CALL'=>'Nie dzwonić',
+'LBL_HOME_PHONE'=>'Tel. domowy',
+'LBL_MOBILE_PHONE'=>'Tel. komórkowy',
+'LBL_OFFICE_PHONE'=>'Tel. służbowy',
+'LBL_OTHER_PHONE'=>'Tel. dodatkowy',
 'LBL_FAX_PHONE'=>'Fax',
-'LBL_EMAIL_ADDRESS'=>'Adresy poczty',
-'LBL_PRIMARY_ADDRESS'=>'Podstawowy adres', 
-'LBL_PRIMARY_ADDRESS_STREET'=>'Podstawowy adres',
-'LBL_PRIMARY_ADDRESS_CITY'=>'Miasto',
-'LBL_PRIMARY_ADDRESS_STATE'=>'Wojewodztwo',
-'LBL_PRIMARY_ADDRESS_POSTALCODE'=>'Kod pocztowy',
-'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Podstawowy adres kraj:',
-'LBL_ALT_ADDRESS_COUNTRY'=>'Kraj',
-'LBL_ALT_ADDRESS_STREET'=>'Inny adres',
-'LBL_ALT_ADDRESS_CITY'=>'Miasto',
-'LBL_ALT_ADDRESS_STATE'=>'Woj.',
-'LBL_ALT_ADDRESS_POSTALCODE'=>'Kod pocztowy',
-'LBL_ALT_ADDRESS_COUNTRY'=>'Kraj',
+'LBL_EMAIL_ADDRESS'=>'Adres email',
+'LBL_PRIMARY_ADDRESS'=>'Adres główny', 
+'LBL_PRIMARY_ADDRESS_STREET'=>'Adres główny',
+'LBL_PRIMARY_ADDRESS_STREET_2' => 'Adres główny',
+'LBL_PRIMARY_ADDRESS_STREET_3' => 'Adres główny',
+'LBL_PRIMARY_ADDRESS_CITY'=>'Miasto główne',
+'LBL_PRIMARY_ADDRESS_STATE'=>'Województwo główne',
+'LBL_PRIMARY_ADDRESS_POSTALCODE'=>'Kod pocztowy główny',
+'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Kraj główny:',
+'LBL_ALT_ADDRESS'=>'Adres dodatkowy', 
+'LBL_ALT_ADDRESS_STREET'=>'Adres dodatkowy',
+'LBL_ALT_ADDRESS_STREET_2' => 'Adres dodatkowy:',
+'LBL_ALT_ADDRESS_STREET_3' => 'Adres dodatkowy:',
+'LBL_ALT_ADDRESS_CITY'=>'Miasto dodatkowe',
+'LBL_ALT_ADDRESS_STATE'=>'Województwo dodatkowe',
+'LBL_ALT_ADDRESS_POSTALCODE'=>'Kod pocztowy dodatkowy',
+'LBL_ALT_ADDRESS_COUNTRY'=>'Kraj dodatkowy',
 'LBL_COUNTRY'=>'Kraj',
-'LBL_STREET'=>'Inny adres',
+'LBL_STREET'=>'Ulica',
+'LBL_PRIMARY_STREET'=>'Ulica',
+'LBL_ALT_STREET'=>'Ulica',
 'LBL_CITY'=>'Miasto',
-'LBL_STATE'=>'Woj.',
+'LBL_STATE'=>'Województwo',
 'LBL_POSTALCODE'=>'Kod pocztowy',
 'LBL_POSTAL_CODE'=>'Kod pocztowy',
-'LBL_COUNTRY'=>'CKraj',
-'lbl_contact_information'=>'Informacje o kontakcie',
-'LBL_ADDRESS_INFORMATION'=>'Adresy',
-'LBL_CONTACT_INFORMATION'=>'Informacje o kontakcie',
-'LBL_ASSIGNED_TO_NAME'=>'Przydzielony do',
+'LBL_COUNTRY'=>'Kraj',
+'LBL_CONTACT_INFORMATION'=>'Informacje kontaktowe',
+'LBL_ADDRESS_INFORMATION'=>'Informacje adresowe',
+'LBL_CONTACT_INFORMATION'=>'Informacje kontaktowe',
+'LBL_ASSIGNED_TO_NAME'=>'Użytkownik',
+'LBL_OTHER_EMAIL_ADDRESS' => 'Dodatkowy adres email:',
 'LBL_ASSISTANT'=>'Asystent',
-'LBL_ASSISTANT_PHONE'=>'Tel. asystenta',
+'LBL_ASSISTANT_PHONE'=>'Telefon asystenta',
 'LBL_WORK_PHONE'=>'Telefon do pracy',
+'LNK_IMPORT_VCARD' => 'Utwórz z vCard',
+'LBL_ANY_EMAIL' => 'Email dodatkowy',
+
+'LBL_EDIT_BUTTON' => 'Edytuj',
+'LBL_REMOVE' => 'Usuń',
+
 );

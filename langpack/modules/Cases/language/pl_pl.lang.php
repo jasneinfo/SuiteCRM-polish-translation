@@ -1,99 +1,102 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * The contents of this file are subject to the SugarCRM Public License Version
- * 1.1.3 ("License"); You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.sugarcrm.com/SPL
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License
- * for the specific language governing rights and limitations under the
- * License.
- *
- * All copies of the Covered Code must include on each user interface screen:
- *    (i) the "Powered by SugarCRM" logo and
- *    (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
- *
- * The Original Code is: SugarCRM Open Source
- * The Initial Developer of the Original Code is SugarCRM, Inc.
- * Portions created by SugarCRM are Copyright (C) 2004-2005 SugarCRM, Inc.;
- * All Rights Reserved.
- * Contributor(s): ______________________________________.
- ********************************************************************************/
+/*+******************************************************************************
+ * Zasady użytkowania znajdują się na stronie: http://opensaas.pl/kontakt/regulamin.html
+ ********************************************************************************
+ *  Language     : Język polski
+ *  Version      : 6.5.x
+ *  Author       : OpenSaaS Sp. z o.o.
+ *  Website      : www.opensaas.pl
+******************************************************************************+*/
 
-/*********************************************************************************
- * pl_pl.lang.ext.php,v for SugarCRM 4.5.1-->>
- * Translator: Krzysztof Morawski
- * All Rights Reserved.
- * Any bugs report welcome: krzysiek<at>kmmgroup<dot>pl
- * Contributor(s): ______________________________________..
- ********************************************************************************/
 $mod_strings = array (
-  'ERR_DELETE_RECORD'=> 'Musi być podany numer rekordu, aby usunąć to konto.',
+	'ERR_DELETE_RECORD'					=> 'Aby usunąć Kontrahenta musisz określić numer rekordu.',
 
-  'LBL_ACCOUNT_ID'					=> 'ID Klienta',
-  'LBL_ACCOUNT_NAME' => 'Nazwa klienta:',
-  'LBL_ACCOUNTS_SUBPANEL_TITLE'		=> 'Klienci',
-  'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Działania',
-  'LBL_ATTACH_NOTE' 	=> 'Załącz notatkę',
-  'LBL_BUGS_SUBPANEL_TITLE' => 'Błędy',
-  'LBL_CASE_NUMBER' => 'Numer sprawy:',
-  'LBL_CASE_SUBJECT' => 'Temat sprawy:',
-  'LBL_CASE' => 'Sprawa:',
-  'LBL_CONTACT_CASE_TITLE' => 'Sprawa - osoba kont.:',
-  'LBL_CONTACT_NAME' => 'Osoba kont.:',
-  'LBL_CONTACT_ROLE' => 'Funkcja:',
-  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakty',
-  'LBL_DEFAULT_SUBPANEL_TITLE' => 'Zdarzenia',
-  'LBL_DESCRIPTION' => 'Opis:',
-  'LBL_FILENANE_ATTACHMENT' => 'Plik załącznika',	
-  'LBL_HISTORY_SUBPANEL_TITLE'=>'Historia',
-  'LBL_INVITEE' => 'Osoby kontaktowe',
-  'LBL_MEMBER_OF'	=> 'Klient',
-  'LBL_MODULE_NAME' => 'Sprawy',
-  'LBL_MODULE_TITLE' => 'Sprawy: Strona główna',
-  'LBL_NEW_FORM_TITLE' => 'Nowa sprawa',
-  'LBL_NUMBER' => 'Numer:',
-  'LBL_PRIORITY' => 'Priorytet:',
-  'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekty',
-  'LBL_RESOLUTION' => 'Decyzja:',
-  'LBL_SEARCH_FORM_TITLE' => 'Wyszukaj',
-  'LBL_STATUS' => 'Status:',
-  'LBL_SUBJECT' => 'Temat:',
-  'LBL_SYSTEM_ID'=> 'ID systemu',
+	'LBL_ACCOUNT_ID'					=> 'ID Kontrahenta',
+	'LBL_ACCOUNT_NAME'					=> 'Nazwa Kontrahenta:',
+	'LBL_ACCOUNTS_SUBPANEL_TITLE'		=> 'Kontrahenci',
+	'LBL_ACTIVITIES_SUBPANEL_TITLE'		=> 'Wydarzenia',
+	'LBL_ATTACH_NOTE' 					=> 'Dodaj notatkę',
+	'LBL_BUGS_SUBPANEL_TITLE'			=> 'Błędy',
+	'LBL_CASE_NUMBER'					=> 'Numer zgłoszenia:',
+	'LBL_CASE_SUBJECT'					=> 'Temat zgłoszenia:',
+	'LBL_CASE'							=> 'Zgłoszenie:',
+	'LBL_CONTACT_CASE_TITLE'			=> 'Zgłoszenie - osoba kontaktowa:',
+	'LBL_CONTACT_NAME'					=> 'Osoba kontaktowa:',
+	'LBL_CONTACT_ROLE'					=> 'Rola:',
+	'LBL_CONTACTS_SUBPANEL_TITLE'		=> 'Kontakty',
+	'LBL_DEFAULT_SUBPANEL_TITLE'		=> 'Zgłoszenia',
+	'LBL_DESCRIPTION'					=> 'Opis:',
+	'LBL_FILENANE_ATTACHMENT' 			=> 'Plik załącznika',		
+	'LBL_HISTORY_SUBPANEL_TITLE'		=> 'Historia',
+	'LBL_INVITEE'						=> 'Kontakty',
+	'LBL_MEMBER_OF'						=> 'Kontrahent',
+	'LBL_MODULE_NAME'					=> 'Zgłoszenia',
+	'LBL_MODULE_TITLE'					=> 'Zgłoszenia: Strona główna',
+	'LBL_NEW_FORM_TITLE'				=> 'Utwórz zgłoszenie',
+	'LBL_NUMBER'						=> 'Numer:',
+	'LBL_PRIORITY'						=> 'Priorytet:',
+	'LBL_PROJECTS_SUBPANEL_TITLE' 		=> 'Projekty',
+	'LBL_DOCUMENTS_SUBPANEL_TITLE' 		=> 'Dokumenty',
+	'LBL_RESOLUTION'					=> 'Rozwiązanie:',
+	'LBL_SEARCH_FORM_TITLE'				=> 'Wyszukiwanie zgłoszenia',
+	'LBL_STATUS'						=> 'Status:',
+	'LBL_SUBJECT'						=> 'Temat:',
+	'LBL_SYSTEM_ID'						=> 'ID systemowe:',
+	'LBL_LIST_ASSIGNED_TO_NAME' 		=> 'Przydzielony użytkownik',
+	'LBL_LIST_ACCOUNT_NAME'				=> 'Nazwa kontrahenta',
+	'LBL_LIST_ASSIGNED'					=> 'Przydzielony do',
+	'LBL_LIST_CLOSE'					=> 'Zamknij',
+	'LBL_LIST_FORM_TITLE'				=> 'Lista zgłoszeń',
+	'LBL_LIST_LAST_MODIFIED'			=> 'Data modyfikacji',
+	'LBL_LIST_MY_CASES'					=> 'Moje nieukończone zgłoszenia',
+	'LBL_LIST_NUMBER'					=> 'Numer',
+	'LBL_LIST_PRIORITY'					=> 'Priorytet',
+	'LBL_LIST_STATUS'					=> 'Status',
+	'LBL_LIST_SUBJECT'					=> 'Temat',
+	'LBL_LIST_ASSIGNED_TO_NAME'   		=> 'Przydzielony użytkownik',
 
-  'LBL_LIST_ASSIGNED_TO_NAME' => 'Przydzielone do',
-  'LBL_LIST_ACCOUNT_NAME' => 'Nazwa klienta',
-  'LBL_LIST_ASSIGNED'=> 'Przydzielone do',
-  'LBL_LIST_CLOSE' => 'Zamknięte',
-  'LBL_LIST_FORM_TITLE' => 'Lista spraw',
-  'LBL_LIST_LAST_MODIFIED' => 'Modyfikowano',
-  'LBL_LIST_MY_CASES' => 'Bieżące sprawy',
-  'LBL_LIST_NUMBER' => 'Numer',
-  'LBL_LIST_PRIORITY' => 'Priorytet',
-  'LBL_LIST_STATUS' => 'Status',
-  'LBL_LIST_SUBJECT' => 'Temat',
-
-  'LNK_CASE_LIST' => 'Sprawy',
-  'LNK_NEW_CASE' => 'Utwórz sprawę',
-  'NTC_REMOVE_FROM_BUG_CONFIRMATION' => 'Czy na pewno chcesz usunąć tę sprawę z tego błędu?',
-  'NTC_REMOVE_INVITEE' => 'Czy na pewno chcesz usunąć wizytówkę z tej sprawy?',
-  'LBL_LIST_ASSIGNED_TO_NAME' => 'Przydzielone do',
-  'LBL_LIST_DATE_CREATED'=> 'Data utworzenia',
-	'LBL_ASSIGNED_TO_NAME' => 'Przydzielone do',
+	'LNK_CASE_LIST'						=> 'Lista zgłoszeń',
+	'LNK_NEW_CASE'						=> 'Utwórz Zgłoszenie',
+	'NTC_REMOVE_FROM_BUG_CONFIRMATION'	=> 'Czy na pewno chcesz usunąć te zgłoszenie z tego błędu?',
+	'NTC_REMOVE_INVITEE'				=> 'Czy na pewno chcesz usunąć uczestnika zgłoszenia?',
+	'LBL_LIST_DATE_CREATED'			=> 'Data utworzenia',
+	'LBL_ASSIGNED_TO_NAME' => 'Przydzielony do',
 	'LBL_TYPE'=>'Typ',
-	'LBL_WORK_LOG'=>'Dziennik pracy',
+	'LBL_WORK_LOG'=>'Dziennik prac:',
+	'LNK_IMPORT_CASES' => 'Importuj zgłoszenia',
 
-	'LNK_CASE_REPORTS' => 'Raporty spraw',
-	'LBL_SHOW_IN_PORTAL' => 'Pokaż na portalu',
-	'LBL_CREATE_KB_DOCUMENT' => 'Utwórz artykół',
+    'LBL_CREATED_USER' => 'Utworzone przez użytkownika',
+    'LBL_MODIFIED_USER' => 'Zmodyfikowane przez użytkownika',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekty',
+    'LBL_CASE_INFORMATION' => 'Opis zgłoszenia',
 
+    //For export labels
+    'LBL_MODIFIED_BY_NAME_OWNER' => 'Zmodyfikowane przez właściciela',
+    'LBL_MODIFIED_BY_NAME_MOD' => 'Zmodyfikowane przez moderatora',
+    'LBL_CREATED_BY_NAME_OWNER' => 'Utworzone przez właściciela',
+    'LBL_CREATED_BY_NAME_MOD' => 'Utworzone przez moderatora',
+    'LBL_ASSIGNED_USER_NAME_OWNER' => 'Przydzielony użytkownik właściciela',
+    'LBL_ASSIGNED_USER_NAME_MOD' => 'Przydzielony użytkownik moderatora',
+    'LBL_TEAM_COUNT_OWNER' => 'Grupa kierownicza właściciela',
+    'LBL_TEAM_COUNT_MOD' => 'Grupa moderatora',
+    'LBL_TEAM_NAME_OWNER' => 'Grupa właściciela',
+    'LBL_TEAM_NAME_MOD' => 'Grupa moderatora',
+    'LBL_ACCOUNT_NAME_OWNER' => 'Nazwa kontrahenta właściciela',
+    'LBL_ACCOUNT_NAME_MOD' => 'Nazwa kontrahenta moderatora',
+    'LBL_MODIFIED_USER_NAME' => 'Zmodyfikowana nazwa użytkownika',
+    'LBL_MODIFIED_USER_NAME_OWNER' => 'Zmodyfikowana nazwa użytkownika właściciela',
+    'LBL_MODIFIED_USER_NAME_MOD' => 'Zmodyfikowana nazwa użytkownika moderatora',
+    'LBL_PORTAL_VIEWABLE' => 'Portal Widoczny',
+    'LBL_EXPORT_ASSIGNED_USER_ID' => 'Przydzielony do (ID użytkownika)',
+    'LBL_EXPORT_MODIFIED_USER_ID' => 'Zmodyfikowane przez (ID użytkownika)',
+    'LBL_EXPORT_CREATED_BY' => 'Utworzony przez (ID)',
+    'LBL_EXPORT_CREATED_BY_NAME' => 'Utworzone przez użytkownika',
+    'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Przypisany użytkownik',
+    'LBL_EXPORT_TEAM_COUNT' => 'Grupa kierownicza',
 
-
-    'LBL_CREATED_USER' => 'Użytkownik tworzący',
-    'LBL_MODIFIED_USER' => 'Użytkownik modyfikujący',
-
+    // SNIP
+	'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Powiązane Kontakty \ Wiadomości e-mail',
 );
 
 ?>
